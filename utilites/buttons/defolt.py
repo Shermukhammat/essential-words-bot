@@ -21,7 +21,7 @@ def get_unit_buttons(book : str = "📗",
 
 
 books = [get_book_buttons(book=book) for book in ["📗", "📕", "📘", "📙", "📔", "📓"]]
-
+books_icon = ["📗", "📕", "📘", "📙", "📔", "📓"]
 class DefoltButton:
     user_home_menu = ReplyKeyboardMarkup(
             keyboard=[
@@ -37,5 +37,15 @@ class DefoltButton:
     def get_book_menu(book : int) -> ReplyKeyboardMarkup:
         if book <= 6 and book >= 1:
             return books[book - 1]
+    
+    def get_unit_menu(unit : int = 1, book : int = 1) -> ReplyKeyboardMarkup:
+        if unit >= 1 and unit <= 30 and book >= 1 and book <= 6:
+            icon = books_icon[book - 1]
+
+            return ReplyKeyboardMarkup(keyboard=[
+                [KeyboardButton(f"{icon} Word list {unit}"), KeyboardButton(f"{icon} Reading {unit}")],
+                [KeyboardButton(f"{icon} Exercise {unit}")],
+                [KeyboardButton("⬅️ Orqaga"), KeyboardButton("🎛 Bosh menu")]
+            ], resize_keyboard = True)
 
     book1_menu : ReplyKeyboardMarkup = get_book_buttons(book="📗")

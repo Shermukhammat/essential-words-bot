@@ -1,8 +1,10 @@
-from loader import db, dp
+from loader import db, dp, bot
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 from utilites.states.useres import UserState
 from utilites.buttons import DefoltButton
+import asyncio, time
+from datetime import datetime, timedelta
 
 books = ["📗", "📕", "📘", "📙", "📔", "📓"]
 
@@ -19,6 +21,15 @@ async def main_text_handler(update : types.Message, state : FSMContext):
 
 
     else:
+        # await bot.send_poll(
+        # chat_id=update.from_user.id,
+        # question="What's your favorite color?",
+        # options=["Red", "Blue", "Green"],
+        # type="quiz",
+        # correct_option_id=1,
+        # close_date=int((datetime.now() + timedelta(seconds=30)).timestamp()),
+        # is_anonymous=False)
+    
         await update.answer("🎛 Bosh menu", reply_markup=DefoltButton.user_home_menu)
 
 # @dp.message_handler()
