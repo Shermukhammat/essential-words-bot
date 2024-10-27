@@ -1,0 +1,97 @@
+book: 1
+
+1:
+  words:
+    1:
+      word: "afraid"
+      translation: "qo'rqqan, cho'chigan"
+      audio: 1
+    2:
+      word: "agree"
+      translation: "fikriga qo'shilmoq"
+      audio: null
+    3:
+      word: "angry"
+      translation: "jahli chiqqan"
+      audio: null
+    4:
+      word: "arrive"
+      translation: "yetib kelmoq"
+      audio: null
+    5:
+      word: "attack"
+      translation: "hujum qilmoq"
+      audio: null
+    6:
+      word: "bottom"
+      translation: "tagi, pasti"
+      audio: null
+    7:
+      word: "clever"
+      translation: "aqilli, ziyrak"
+      audio: null
+    8:
+      word: "cruel"
+      translation: "shafqatsiz"
+      audio: null
+    9:
+      word: "finally"
+      translation: "ahiyri, vanihoyat"
+      audio: null
+    10:
+      word: "hide"
+      translation: "yashirinmoq"
+      audio: null
+    11:
+      word: "hunt"
+      translation: "ov qilmoq"
+      audio: null
+    12:
+      word: "lot"
+      translation: "juda ko'p"
+      audio: null
+    13:
+      word: "middle"
+      translation: "o'rta, markaz"
+      audio: null
+    14:
+      word: "moment"
+      translation: "sekund, on"
+      audio: null
+    15:
+      word: "pleased"
+      translation: "hursand, mamnun"
+      audio: null
+    16:
+      word: "promise"
+      translation: "va'da bermoq"
+      audio: null
+    17:
+      word: "reply"
+      translation: "javob bermoq"
+      audio: null
+    18:
+      word: "safe"
+      translation: "hafsiz, behatar"
+      audio: null
+    19:
+      word: "trick"
+      translation: "hiyla, nayrang"
+      audio: null
+    20:
+      word: "well"
+      translation: "yaxshi"
+      audio: null
+
+  photos:
+    - 1
+    - 2
+
+  exercise:
+    - null
+    - null
+
+  reading:
+    photo: null
+    audio: null
+
