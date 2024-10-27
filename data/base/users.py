@@ -23,18 +23,17 @@ class User:
 
 
 class UsersDb:
-    def __init__(self, db_path : str, write_semapore : Semaphore) -> None:
+    def __init__(self, db_path : str, write_semapore : Semaphore, cache_leng : int = 100) -> None:
         self.path = db_path 
-        self.users_cache : Cache = Cache(max_len = 100)
+        self.users_cache : Cache = Cache(max_len = cache_leng)
         self.write_semapore = write_semapore
     
-    async def is_user(self, id : int) -> bool:
-        if await self.users_cache.get(id):
+    def is_user(self, id : int) -> bool:
+        if self.users_cache.data.get(id):
             return True
         
         user = get_user_from_db(self.path, id)
         if user:
-            await self.users_cache.set(user.id, user)
             return True
         return False
 
