@@ -6,6 +6,8 @@ from utilites.buttons import DefoltButton
 import re
 
 
+books = ["📗", "📕", "📘", "📙", "📔", "📓"]
+
 @dp.message_handler(state=UserState.book_menu)
 async def book_menu_handler(update : types.Message, state : FSMContext):
     
@@ -23,7 +25,7 @@ async def book_menu_handler(update : types.Message, state : FSMContext):
         await state.update_data(unit = unit)
         await state.set_state(UserState.unit_menu)
         
-        await update.answer(f"Unit {unit} menu", reply_markup=DefoltButton.get_unit_menu(unit = unit, book = book_num))
+        await update.answer(f"{books[book_num-1]} Unit {unit} menu", reply_markup=DefoltButton.get_unit_menu(unit = unit, book = book_num))
         
     else:
         state_data = await state.get_data()

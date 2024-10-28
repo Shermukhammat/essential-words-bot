@@ -1,21 +1,11 @@
-# from data import DataBase, User, Status
-# import asyncio
+from data import BookData
 
 
 
 
 
-# db = DataBase('test.db')
+book_db = BookData('data/book1.yaml')
 
-# async def main():
-#     # print(await db.is_user(1))
-#     # print(await db.is_user(2))
-#     # await db.register_user(id = 2, name='Temur')
-#     user = await db.get_user(1)
-#     User
-#     print(user)
-
-# asyncio.run(main())
-
-for n in range(1, 31, 3):
-    print(n, n+1, n+2)
+unit1 = book_db.units[1]
+for p, word in unit1.words.items():
+    print(p, word.value, word.translation)
