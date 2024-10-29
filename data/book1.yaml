@@ -7,86 +7,185 @@ units:
         word: "afraid"
         translation: "qo'rqqan, cho'chigan"
         audio: 1
+        meaning: "When someone is afraid, they feel fear."
+        meaning_tr: "Agar kimdir qo'rqsa, qo'rquv his qiladi."
+        example: "The woman was afraid of what she saw."
+        example_tr: "Boyagi ayol ko'rgan narsasidan qo'rqib ketdi."
+
       2:
         word: "agree"
         translation: "fikriga qo'shilmoq"
         audio: null
+        meaning: "To agree is to have the same opinion as someone else."
+        meaning_tr: "Agree bu kimdir bilan bir xil fikrda bo'lishdir."
+        example: "The students agreed to work together on the project."
+        example_tr: "Talabalar loyihada birga ishlashga rozi bo'lishdi."
+
       3:
         word: "angry"
         translation: "jahli chiqqan"
         audio: null
+        meaning: "When someone is angry, they may want to shout or fight."
+        meaning_tr: "Biror kishi angry bo'lsa, u baqirmoqchi yoki kurashmoqchi bo'lishi mumkin."
+        example: "She didn’t do her homework,  so her father is angry."
+        example_tr: "U uy vazifasini bajarmadi, shuning uchun otasni jahli chiqdi."
+
       4:
         word: "arrive"
         translation: "yetib kelmoq"
         audio: null
+        meaning: "To arrive is to get to or reach some place."
+        meaning_tr: "Arrive - biror joyga yetib kelishni anglatadi."
+        example: "They arrived at the airport early."
+        example_tr: "Ular aeroportga ertaroq yetib kelishdi."
+
       5:
         word: "attack"
         translation: "hujum qilmoq"
         audio: null
+        meaning: "To attack is to try to fight or hurt."
+        meaning_tr: "Attack bu jang qilish yoki zarar yetkazishga harakat qilishdir."
+        example: "The dog attacked the man on the street."
+        example_tr: "It odamga ko'chada hujum qildi."
+
       6:
         word: "bottom"
         translation: "tagi, pasti"
         audio: null
+        meaning: "The bottom is the lowest part."
+        meaning_tr: "Bottom bu eng pastki qismdir."
+        example: "The bottom of my shoe has a hole in it."
+        example_tr: "Mening poyabzalimning tagida teshik bor."
+
       7:
         word: "clever"
         translation: "aqilli, ziyrak"
         audio: null
+        meaning: "When someone is clever, they can solve a hard problem."
+        meaning_tr: "Biror kishi clever bo'lsa, u qiyin muammoni hal qila oladi."
+        example: "The clever boy solved the puzzle quickly."
+        example_tr: "Aqilli bola boshqotirmani tezda hal qildi."
+
       8:
         word: "cruel"
         translation: "shafqatsiz"
         audio: null
+        meaning: "When someone is cruel, they do bad things to hurt others."
+        meaning_tr: "Biror kishi cruel bo'lsa, u boshqalarga zarar yetkazadigan yomon ishlarni qiladi."
+        example: "The cruel man yelled at his sister."
+        example_tr: "Shafqatsiz odam singlisiga baqirdi."
+
       9:
         word: "finally"
         translation: "ahiyri, vanihoyat"
         audio: null
+        meaning: "If something happens finally, it happens after a long time."
+        meaning_tr: "Finally biror narsa uzoq vaqt o'tgach sodir bo'lishini anglatadi."
+        example: "He finally crossed the finish line."
+        example_tr: "Nihoyat u marraga yetib bordi."
+
       10:
         word: "hide"
         translation: "yashirinmoq"
         audio: null
+        meaning: "To hide is to try not to let others see you."
+        meaning_tr: "Hide - boshqalarga ko'rinmaslikka harakat qilishdir."
+        example: "The cat tried to hide under the table."
+        example_tr: "Mushuk stol ostida yashirinishga harakat qildi."
+
       11:
         word: "hunt"
         translation: "ov qilmoq"
         audio: null
+        meaning: "To hunt is to look for or search for an animal to kill."
+        meaning_tr: "Hunt bu o'ldirish uchun hayvonni qidirish yoki izlashdir."
+        example: "The man hunts deer in the woods."
+        example_tr: "O'sha odam o'rmonda kiyik ovlaydi."
+
       12:
         word: "lot"
         translation: "juda ko'p"
         audio: null
+        meaning: "A lot means a large number or amount of people, animals, things, etc."
+        meaning_tr: "Lot bu ko'p miqdor odamlar, hayvonlar, narsalar va hokazo."
+        example: "There are a lot of apples in the basket."
+        example_tr: "Savatda juda ko'p olma bor."
+
       13:
         word: "middle"
         translation: "o'rta, markaz"
         audio: null
+        meaning: "The middle of something is the center or halfway point."
+        meaning_tr: "Biror narsaning middle qismi markaz yoki yarim yo'ldir."
+        example: "The boy stood in the middle of the room."
+        example_tr: "Bola xonaning o'rtasida turdi."
+
       14:
         word: "moment"
         translation: "sekund, on"
         audio: null
+        meaning: "A moment is a second or a very short time."
+        meaning_tr: "Moment bu bir soniya yoki juda qisqa vaqt."
+        example: "I was only a few moments late for the meeting."
+        example_tr: "Men faqat bir necha lahza kechikdim."
+
       15:
         word: "pleased"
         translation: "hursand, mamnun"
         audio: null
+        meaning: "When someone is pleased, they are happy."
+        meaning_tr: "Biror kishi pleased bo'lsa, u hursand."
+        example: "She was pleased with the phone call."
+        example_tr: "U telefon qo'ng'irog'idan hursand bo'ldi."
+
       16:
         word: "promise"
         translation: "va'da bermoq"
         audio: null
+        meaning: "To promise is to say you will do something for sure."
+        meaning_tr: "Promise - bu siz biror narsani albatta qilasiz deb aytishdir."
+        example: "He promised to return my book by Friday."
+        example_tr: "U kitobimni juma kunigacha qaytarib berishga va'da berdi."
+
       17:
         word: "reply"
         translation: "javob bermoq"
         audio: null
+        meaning: "To reply is to give an answer or say back to someone."
+        meaning_tr: "Reply bu biror kishiga javob berish yoki qaytarmoq."
+        example: "She asked him what time his meeting was. He replied, 'at three.'"
+        example_tr: "U undan yig'ilish necha daqiqa bo'lishini so'radi. U 'uchda' deb javob berdi."
+
       18:
         word: "safe"
         translation: "hafsiz, behatar"
         audio: null
+        meaning: "When a person is safe, they are not in danger."
+        meaning_tr: "Biror kishi safe bo'lsa, u xavf ostida emas."
+        example: "The children are safe at home."
+        example_tr: "Bolalar uyda xavfsiz."
+
       19:
         word: "trick"
         translation: "hiyla, nayrang"
         audio: null
+        meaning: "A trick is something you do to fool another person."
+        meaning_tr: "Trick - bu boshqa kishini aldash uchun qilinadigan narsa."
+        example: "His card trick really surprised us."
+        example_tr: "Uning kartalar bilan qilgan hiylasi bizni hayratga soldi."
+
       20:
         word: "well"
         translation: "yaxshi"
         audio: null
+        meaning: "You use well to say that something was done in a good way."
+        meaning_tr: "Well so'zi biror narsa yaxshi tarzda bajarilganini anglatadi."
+        example: "She did well on the test."
+        example_tr: "U testda yaxshi natijaga erishdi."
 
     photos:
-      - 1
-      - 2
+      - 7
+      - 8
 
     exercise:
       - null
@@ -95,3 +194,198 @@ units:
     reading:
       photo: null
       audio: null
+  
+      1:
+        words:
+          1:
+            word: "afraid"
+            translation: "qo'rqqan, cho'chigan"
+            audio: 1
+            meaning: "When someone is afraid, they feel fear."
+            meaning_tr: "Agar kimdir qo'rqsa, qo'rquv his qiladi."
+            example: "The woman was afraid of what she saw."
+            example_tr: "Boyagi ayol ko'rgan narsasidan qo'rqib ketdi."
+    
+          2:
+            word: "agree"
+            translation: "fikriga qo'shilmoq"
+            audio: null
+            meaning: "To agree is to have the same opinion as someone else."
+            meaning_tr: "Agree bu kimdir bilan bir xil fikrda bo'lishdir."
+            example: "The students agreed to work together on the project."
+            example_tr: "Talabalar loyihada birga ishlashga rozi bo'lishdi."
+    
+          3:
+            word: "angry"
+            translation: "jahli chiqqan"
+            audio: null
+            meaning: "When someone is angry, they may want to shout or fight."
+            meaning_tr: "Biror kishi angry bo'lsa, u baqirmoqchi yoki kurashmoqchi bo'lishi mumkin."
+            example: "She didn’t do her homework,  so her father is angry."
+            example_tr: "U uy vazifasini bajarmadi, shuning uchun otasni jahli chiqdi."
+    
+          4:
+            word: "arrive"
+            translation: "yetib kelmoq"
+            audio: null
+            meaning: "To arrive is to get to or reach some place."
+            meaning_tr: "Arrive - biror joyga yetib kelishni anglatadi."
+            example: "They arrived at the airport early."
+            example_tr: "Ular aeroportga ertaroq yetib kelishdi."
+    
+          5:
+            word: "attack"
+            translation: "hujum qilmoq"
+            audio: null
+            meaning: "To attack is to try to fight or hurt."
+            meaning_tr: "Attack bu jang qilish yoki zarar yetkazishga harakat qilishdir."
+            example: "The dog attacked the man on the street."
+            example_tr: "It odamga ko'chada hujum qildi."
+    
+          6:
+            word: "bottom"
+            translation: "tagi, pasti"
+            audio: null
+            meaning: "The bottom is the lowest part."
+            meaning_tr: "Bottom bu eng pastki qismdir."
+            example: "The bottom of my shoe has a hole in it."
+            example_tr: "Mening poyabzalimning tagida teshik bor."
+    
+          7:
+            word: "clever"
+            translation: "aqilli, ziyrak"
+            audio: null
+            meaning: "When someone is clever, they can solve a hard problem."
+            meaning_tr: "Biror kishi clever bo'lsa, u qiyin muammoni hal qila oladi."
+            example: "The clever boy solved the puzzle quickly."
+            example_tr: "Aqilli bola boshqotirmani tezda hal qildi."
+    
+          8:
+            word: "cruel"
+            translation: "shafqatsiz"
+            audio: null
+            meaning: "When someone is cruel, they do bad things to hurt others."
+            meaning_tr: "Biror kishi cruel bo'lsa, u boshqalarga zarar yetkazadigan yomon ishlarni qiladi."
+            example: "The cruel man yelled at his sister."
+            example_tr: "Shafqatsiz odam singlisiga baqirdi."
+    
+          9:
+            word: "finally"
+            translation: "ahiyri, vanihoyat"
+            audio: null
+            meaning: "If something happens finally, it happens after a long time."
+            meaning_tr: "Finally biror narsa uzoq vaqt o'tgach sodir bo'lishini anglatadi."
+            example: "He finally crossed the finish line."
+            example_tr: "Nihoyat u marraga yetib bordi."
+    
+          10:
+            word: "hide"
+            translation: "yashirinmoq"
+            audio: null
+            meaning: "To hide is to try not to let others see you."
+            meaning_tr: "Hide - boshqalarga ko'rinmaslikka harakat qilishdir."
+            example: "The cat tried to hide under the table."
+            example_tr: "Mushuk stol ostida yashirinishga harakat qildi."
+    
+          11:
+            word: "hunt"
+            translation: "ov qilmoq"
+            audio: null
+            meaning: "To hunt is to look for or search for an animal to kill."
+            meaning_tr: "Hunt bu o'ldirish uchun hayvonni qidirish yoki izlashdir."
+            example: "The man hunts deer in the woods."
+            example_tr: "O'sha odam o'rmonda kiyik ovlaydi."
+    
+          12:
+            word: "lot"
+            translation: "juda ko'p"
+            audio: null
+            meaning: "A lot means a large number or amount of people, animals, things, etc."
+            meaning_tr: "Lot bu ko'p miqdor odamlar, hayvonlar, narsalar va hokazo."
+            example: "There are a lot of apples in the basket."
+            example_tr: "Savatda juda ko'p olma bor."
+    
+          13:
+            word: "middle"
+            translation: "o'rta, markaz"
+            audio: null
+            meaning: "The middle of something is the center or halfway point."
+            meaning_tr: "Biror narsaning middle qismi markaz yoki yarim yo'ldir."
+            example: "The boy stood in the middle of the room."
+            example_tr: "Bola xonaning o'rtasida turdi."
+    
+          14:
+            word: "moment"
+            translation: "sekund, on"
+            audio: null
+            meaning: "A moment is a second or a very short time."
+            meaning_tr: "Moment bu bir soniya yoki juda qisqa vaqt."
+            example: "I was only a few moments late for the meeting."
+            example_tr: "Men faqat bir necha lahza kechikdim."
+    
+          15:
+            word: "pleased"
+            translation: "hursand, mamnun"
+            audio: null
+            meaning: "When someone is pleased, they are happy."
+            meaning_tr: "Biror kishi pleased bo'lsa, u hursand."
+            example: "She was pleased with the phone call."
+            example_tr: "U telefon qo'ng'irog'idan hursand bo'ldi."
+    
+          16:
+            word: "promise"
+            translation: "va'da bermoq"
+            audio: null
+            meaning: "To promise is to say you will do something for sure."
+            meaning_tr: "Promise - bu siz biror narsani albatta qilasiz deb aytishdir."
+            example: "He promised to return my book by Friday."
+            example_tr: "U kitobimni juma kunigacha qaytarib berishga va'da berdi."
+    
+          17:
+            word: "reply"
+            translation: "javob bermoq"
+            audio: null
+            meaning: "To reply is to give an answer or say back to someone."
+            meaning_tr: "Reply bu biror kishiga javob berish yoki qaytarmoq."
+            example: "She asked him what time his meeting was. He replied, 'at three.'"
+            example_tr: "U undan yig'ilish necha daqiqa bo'lishini so'radi. U 'uchda' deb javob berdi."
+    
+          18:
+            word: "safe"
+            translation: "hafsiz, behatar"
+            audio: null
+            meaning: "When a person is safe, they are not in danger."
+            meaning_tr: "Biror kishi safe bo'lsa, u xavf ostida emas."
+            example: "The children are safe at home."
+            example_tr: "Bolalar uyda xavfsiz."
+    
+          19:
+            word: "trick"
+            translation: "hiyla, nayrang"
+            audio: null
+            meaning: "A trick is something you do to fool another person."
+            meaning_tr: "Trick - bu boshqa kishini aldash uchun qilinadigan narsa."
+            example: "His card trick really surprised us."
+            example_tr: "Uning kartalar bilan qilgan hiylasi bizni hayratga soldi."
+    
+          20:
+            word: "well"
+            translation: "yaxshi"
+            audio: null
+            meaning: "You use well to say that something was done in a good way."
+            meaning_tr: "Well so'zi biror narsa yaxshi tarzda bajarilganini anglatadi."
+            example: "She did well on the test."
+            example_tr: "U testda yaxshi natijaga erishdi."
+    
+        photos:
+          - 7
+          - 8
+    
+        exercise:
+          - null
+          - null
+    
+        reading:
+          photo: null
+          audio: null
+          
