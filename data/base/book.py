@@ -44,3 +44,8 @@ class Word:
         self.value : str = data.get('word', 'none')
         self.translation : str = data.get('translation', 'none')
         self.audio_id : int = data.get('audio')
+        self.meanig : str = data.get('meaning')
+        self.meanig_tr : str = data.get('meaning_tr')
+        self.example : str = data.get('example')
+        self.example_tr : str = data.get('example_tr')
+        self.type : str = data.get('type')

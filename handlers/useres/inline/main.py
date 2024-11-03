@@ -1,29 +1,31 @@
-from loader import dp, db, bot
+from loader import dp, db, bot, books_data
 from aiogram import types
 from uuid import uuid4
+from data import Unit, Word
 
 
-# {"message_id": 12, "sender_chat": {"id": -1002359587138, "title": "Essential Data", "username": "audiotd", "type": "channel"}, 
-#  "chat": {"id": -1002359587138, "title": "Essential Data", "username": "audiotd", "type": "channel"}, 
-#  "date": 1730276435, 
-#  "audio": {"duration": 0, 
-#            "file_name": 
-#            "angry_1392933884419.mp3", 
-#            "mime_type": "audio/mpeg", 
-#            "file_id": "CQACAgIAAyEGAASMpHFCAAMMZyJOw0BsoehSw3ZQIoAbdemve-IAAglsAAKJvRlJZOj_tMSL9lE2BA", 
-#            "file_unique_id": "AgADCWwAAom9GUk", "file_size": 22601}, 
-#  "caption": "blah"}
 
-@dp.inline_handler()
+
+@dp.inline_handler(state='*')
 async def inline_audio(query: types.InlineQuery):
-    audio_result = types.InlineQueryResultAudio(
-        id=uuid4().hex,
-        title="Blah",
-        audio_url="https://t.me/audiotd/12",
+    unit = get_unit(query.query)
+    if unit:
+        answer = [audio(word, num) for num, word in unit.words.items()]
+
+        await bot.answer_inline_query(query.id, results=answer, cache_time=1)
+
+
+def get_unit(query : str) -> Unit:
+    params = query.split('&')
+    if len(params) == 2 and params[0].isnumeric() and params[1].isnumeric():
+        book = int(params[0])
+        unit = int(params[1])
+
+        if book >= 1 and book <= 6 and unit <= 30 and unit >= 1:
+            return books_data[book].units[unit]
         
-        caption="Here's your requested audio!",
-    )
-    # Answer the inline query
-    await bot.answer_inline_query(query.id, results=[audio_result], cache_time=1)
-
-
+def audio(word: Word, num : int) -> types.InlineQueryResultAudio:
+    return types.InlineQueryResultAudio(id=uuid4().hex, 
+                                        title=f"{num} {word.value}", 
+                                        audio_url=f"https://t.me/{db.DATA_CHANEL_USERNAME}/{word.audio_id}",
+                                        caption=f"🔤 {word.value} [{word.type}] {word.translation} \n📖 {word.meanig} \n💡 {word.example} \n\n📖 {word.meanig_tr} \n💡 {word.example_tr}")

@@ -11,6 +11,4 @@ bot = Bot(db.TOKEN)
 dp = Dispatcher(bot, storage=storage)
 
 
-books_data = {
-    1 : BookData('data/book1.yaml')
-}
+books_data = {num : BookData(f'data/book{num}.yaml') for num in range(1, 7)}

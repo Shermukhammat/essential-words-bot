@@ -52,6 +52,7 @@ class ParamsDB:
 
         self.TOKEN = self.data.get('token')
         self.DATA_CHANEL = self.data.get('data_chanel')
+        self.DATA_CHANEL_USERNAME = self.data.get('data_chanel_username')
     
     def update_params(self):
         self.utilit.update_yaml(self.data)
