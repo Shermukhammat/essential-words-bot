@@ -3464,6 +3464,16 @@ units:
         example_tr: Ofitserlar samolyotni tark etishdan oldin barchani sinchkovlik
           bilan tekshirishdi.
       17:
+        word: testify
+        translation: guvohlik bermoq
+        audio: 4725
+        meaning: To testify means to give evidence as a witness.
+        example: The judge listened while the victim testified about the robbery.
+        type: v
+        meaning_tr: Guvohlik qilish, guvoh sifatida ko'rsatma berish demakdir.
+        example_tr: Jabrlanuvchi o'g'irlik haqida ko'rsatma berayotganda sudya tingladi.
+      
+      18:
         word: tumult
         translation: shovqin, gʻala gʻovur
         audio: 4442
@@ -3475,7 +3485,7 @@ units:
           chalkash shovqin.
         example_tr: U boshqa hayajonlangan mehmonlarning shovqinidan do'stini eshita
           olmadi.
-      18:
+      19:
         word: underestimate
         translation: nazarga ilmaslik
         audio: 4443
@@ -3486,7 +3496,7 @@ units:
         meaning_tr: Biror narsani yoki kimnidir kamsitish, ularni muhim emas deb o'ylashni
           anglatadi.
         example_tr: Boshqa jamoaning mahoratini past baholaganimiz uchun o'yinni yutqazdik.
-      19:
+      20:
         word: uproar
         translation: shovqin suron
         audio: 4444
@@ -3496,15 +3506,6 @@ units:
         meaning_tr: G'alayon - bu juda g'azablangan yoki xafa bo'lgan odamlar tomonidan
           paydo bo'ladigan baland shovqin.
         example_tr: Jamoasi o‘yinda mag‘lub bo‘lgach, muxlislar katta shov-shuv ko‘tarishdi.
-      20:
-        word: accelerate
-        translation: tezlashmoq
-        audio: 4445
-        meaning: To accelerate means to increase in speed.
-        example: When he stepped on the gas pedal, the motorcycle accelerated.
-        type: v
-        meaning_tr: Tezlashtirish tezligini oshirishni anglatadi.
-        example_tr: U gaz pedalini bosganida, mototsikl tezlashdi.
     photos:
       - 4200
       - 4202
@@ -3519,6 +3520,15 @@ units:
   17:
     words:
       1:
+        word: accelerate
+        translation: tezlashmoq
+        audio: 4445
+        meaning: To accelerate means to increase in speed.
+        example: When he stepped on the gas pedal, the motorcycle accelerated.
+        type: v
+        meaning_tr: Tezlashtirish tezligini oshirishni anglatadi.
+        example_tr: U gaz pedalini bosganida, mototsikl tezlashdi.
+      2:
         word: anew
         translation: yangidan, qaytadan
         audio: 4446
@@ -3529,7 +3539,7 @@ units:
           bilan qilasiz.
         example_tr: U haydash imtihonidan o'ta olmagan bo'lsa-da, u yana sinab ko'rishga
           qaror qildi.
-      2:
+      3:
         word: defect
         translation: defekt, nuqson
         audio: 4447
@@ -3539,7 +3549,7 @@ units:
         meaning_tr: Kamchilik - bu noto'g'ri yoki etishmayotgan narsaning bir qismi.
         example_tr: Bu idishlarning barchasida nuqson bor va ularni omborga qaytarish
           kerak.
-      3:
+      4:
         word: dreary
         translation: gʻamgin, mayus, zerikarli
         audio: 4448
@@ -3548,7 +3558,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa g'amgin bo'lsa, u zerikarli, qorong'i va jonsizdir.
         example_tr: Yong'indan keyin o'rmonning bu qismi juda qo'rqinchli.
-      4:
+      5:
         word: duplicate
         translation: qarab takrorlamoq
         audio: 4449
@@ -3558,7 +3568,7 @@ units:
         type: v
         meaning_tr: Biror narsani takrorlash, uni nusxalash demakdir.
         example_tr: U xuddi ko‘zgu oldida turgandek dugonasining harakatlarini takrorladi.
-      5:
+      6:
         word: electromagnetic
         translation: elektromagnit...
         audio: 4450
@@ -3571,7 +3581,7 @@ units:
           bilan bog'liq.
         example_tr: Yorug'likning turli xil ranglari turli darajadagi elektromagnit
           energiyadan kelib chiqadi.
-      6:
+      7:
         word: electron
         translation: elektron
         audio: 4451
@@ -3583,7 +3593,7 @@ units:
         meaning_tr: Elektron barcha atomlardagi manfiy elektr zaryadiga ega bo'lgan
           zarrachadir.
         example_tr: Atomdagi elektronlar soni atomlar hosil qiladigan moddani aniqlaydi.
-      7:
+      8:
         word: glide
         translation: bir tekisda uchmoq
         audio: 4452
@@ -3593,7 +3603,7 @@ units:
         meaning_tr: Sirpanish - cho'zilgan qanotlarda kam yoki hech qanday kuch sarflamasdan
           uchish demakdir.
         example_tr: Shamol esganda, qushlar osmonda osongina sirpanishlari mumkin.
-      8:
+      9:
         word: ingenious
         translation: zukko, aqlli
         audio: 4453
@@ -3604,7 +3614,7 @@ units:
         meaning_tr: Agar kimdir zukko bo'lsa, u juda aqlli.
         example_tr: Charlz samolyot dvigatellarini ta'mirlashga qodir bo'lgan yagona
           odam edi.
-      9:
+      10:
         word: innovation
         translation: yangilik, inovatsiya
         audio: 4454
@@ -3613,7 +3623,7 @@ units:
         type: n
         meaning_tr: Innovatsiya - bu yangi yoki juda original mahsulot yoki g'oya.
         example_tr: Jonson xonim kompaniyaning biznes rejasiga ajoyib yangilik kiritdi.
-      10:
+      11:
         word: innovative
         translation: ijodkor
         audio: 4455
@@ -3626,7 +3636,7 @@ units:
           bilan o'ylashlari mumkin.
         example_tr: Butrus juda innovatsion bo'lganligi sababli, u ilmiy jamoaga rahbarlik
           qilish uchun tanlangan.
-      11:
+      12:
         word: launch
         translation: suvga tushirmoq, suvga tushmoq
         audio: 4456
@@ -3635,7 +3645,7 @@ units:
         type: v
         meaning_tr: Biror narsani ishga tushirish, uni harakatga keltirishni anglatadi.
         example_tr: Qayiq dokdan suzib, daryo bo'ylab suzib ketdi.
-      12:
+      13:
         word: meteorological
         translation: meteorologik...
         audio: 4457
@@ -3647,7 +3657,7 @@ units:
         meaning_tr: Agar biror narsa meteorologik bo'lsa, u ob-havo fani bilan bog'liq.
         example_tr: Momaqaldiroq shunchalik katta ediki, u ajoyib meteorologik hodisaga
           aylandi.
-      13:
+      14:
         word: meteorology
         translation: meteorologiya
         audio: 4458
@@ -3656,7 +3666,7 @@ units:
         type: n
         meaning_tr: Meteorologiya - ob-havoni o'rganadigan fan.
         example_tr: Ob-havoni tushunish uchun siz meteorologiyani o'rganishingiz kerak.
-      14:
+      15:
         word: penetrate
         translation: kirmoq, ichiga kirmoq
         audio: 4459
@@ -3665,7 +3675,7 @@ units:
         type: v
         meaning_tr: Biror narsaga kirish, unga kirish demakdir.
         example_tr: Pichoq apelsin yuzasiga osongina kirib bordi.
-      15:
+      16:
         word: propulsion
         translation: turtki, harakatlantiruvchi kuch
         audio: 4460
@@ -3674,7 +3684,7 @@ units:
         type: n
         meaning_tr: Harakat - bu biror narsani oldinga siljitadigan kuch.
         example_tr: Harakat raketani osmonga ko'tardi.
-      16:
+      17:
         word: simulate
         translation: oʻxshatishga harakat qilmoq
         audio: 4461
@@ -3686,7 +3696,7 @@ units:
           nusxalashni anglatadi.
         example_tr: Frantsuz tili o'qituvchisi frantsuz fuqarosining aksentini taqlid
           qilishi mumkin edi.
-      17:
+      18:
         word: spur
         translation: turtki bermoq, ruhlantirmoq
         audio: 4462
@@ -3697,7 +3707,7 @@ units:
         meaning_tr: Biror kishini rag'batlantirish, uni harakatga undash demakdir.
         example_tr: Murabbiyning nutqi uning jamoasini hayotidagi eng yaxshi o'yinni
           o'tkazishga undadi.
-      18:
+      19:
         word: stimulate
         translation: harakatga keltirmoq
         audio: 4463
@@ -3709,7 +3719,7 @@ units:
           anglatadi.
         example_tr: Shifokorlar ba'zida bemorning yurak urishini rag'batlantirish
           uchun elektr toki urishidan foydalanadilar.
-      19:
+      20:
         word: tenacious
         translation: qatʼiyatli
         audio: 4464
@@ -3718,16 +3728,6 @@ units:
         type: adj
         meaning_tr: Agar kimdir qat'iyatli bo'lsa, u osonlikcha taslim bo'lmaydi.
         example_tr: Ishonchim komilki, u bu qiyin savdoni tugatadi. U juda qat'iyatli.
-      20:
-        word: beforehand
-        translation: oldindan
-        audio: 4465
-        meaning: If something is done beforehand, then it is done in advance.
-        example: He packed his luggage beforehand, so he was able to leave right away.
-        type: adv
-        meaning_tr: Agar biror narsa oldindan qilingan bo'lsa, u oldindan amalga oshiriladi.
-        example_tr: U yukini oldindan yig'di, shuning uchun u darhol ketishga muvaffaq
-          bo'ldi.
     photos:
       - 4214
       - 4216
@@ -3742,6 +3742,16 @@ units:
   18:
     words:
       1:
+        word: beforehand
+        translation: oldindan
+        audio: 4465
+        meaning: If something is done beforehand, then it is done in advance.
+        example: He packed his luggage beforehand, so he was able to leave right away.
+        type: adv
+        meaning_tr: Agar biror narsa oldindan qilingan bo'lsa, u oldindan amalga oshiriladi.
+        example_tr: U yukini oldindan yig'di, shuning uchun u darhol ketishga muvaffaq
+          bo'ldi.
+      2:
         word: centigrade
         translation: Selsiy shkalasi boʻyicha
         audio: 4466
@@ -3753,7 +3763,7 @@ units:
         meaning_tr: Agar harorat santigrad bo'lsa, u o'lchovli bo'ladi, shuning uchun
           suv 0 ° da muzlaydi va 100 ° da qaynaydi.
         example_tr: Bahor faslida havo harorati 26 darajagacha qiziydi.
-      2:
+      3:
         word: chatter
         translation: valaqlashmoq, valdiramoq
         audio: 4467
@@ -3762,7 +3772,7 @@ units:
         type: v
         meaning_tr: Suhbatlashish, ahamiyatsiz narsalar haqida tez gapirishni anglatadi.
         example_tr: Bolalar sinfning orqa tomonida gaplashishdi.
-      3:
+      4:
         word: concerto
         translation: konsert tipidagi sodda musiqiy asar
         audio: 4468
@@ -3772,7 +3782,7 @@ units:
         meaning_tr: Konsert - bu yakkaxon cholg'u uchun musiqa bo'lib, orkestr bilan
           ijro etiladi.
         example_tr: Pianino kontsertida faqat pianino ijro etiladigan bo'lim mavjud.
-      4:
+      5:
         word: condense
         translation: suyuq holatga keltirmoq
         audio: 4469
@@ -3782,7 +3792,7 @@ units:
         type: v
         meaning_tr: Gazni kondensatsiya qilish uni suyuqlikka aylantirishni anglatadi.
         example_tr: Salqin havo maysalar tepasida mayda suv tomchilarini quyuqlashtirdi.
-      5:
+      6:
         word: cove
         translation: koʻrfaz
         audio: 4470
@@ -3791,7 +3801,7 @@ units:
         type: n
         meaning_tr: Ko'y - dengiz atrofida ichkariga egilgan quruqlikning bir qismi.
         example_tr: Ular qayiqni orolning janubiy tomonidagi kichik qo‘yga yashirishdi.
-      6:
+      7:
         word: deteriorate
         translation: muttasil yomonlashib bormoq
         audio: 4471
@@ -3802,7 +3812,7 @@ units:
         meaning_tr: Buzilish - bu tobora yomonlashishni anglatadi.
         example_tr: Siyosatchilarning sa'y-harakatlariga qaramay, mamlakat iqtisodiyoti
           yomonlashishda davom etdi.
-      7:
+      8:
         word: exterior
         translation: tashqi taraf, poʻstloq
         audio: 4472
@@ -3813,7 +3823,7 @@ units:
         meaning_tr: Eksteryer - biror narsaning tashqi yuzasi.
         example_tr: Yong'oqning tashqi ko'rinishi qattiq va yog'och edi, lekin ichki
           qismi yumshoq va mazali edi.
-      8:
+      9:
         word: freeway
         translation: avtostrada
         audio: 4473
@@ -3825,7 +3835,7 @@ units:
           to'xtash joyi bo'lmagan yo'l.
         example_tr: Magistral yo'lga chiqqaningizdan so'ng, ota-onamning fermasigacha
           borish uchun bor-yo'g'i bir soat vaqt ketadi.
-      9:
+      10:
         word: hearty
         translation: baland va quvnoq ovozdagi
         audio: 4474
@@ -3837,7 +3847,7 @@ units:
           va baxtlidir.
         example_tr: Buvi o‘z hikoyasini nabirasini xursand qilgan quvnoq kulgi bilan
           yakunladi.
-      10:
+      11:
         word: hospitable
         translation: mehmondoʻst
         audio: 4475
@@ -3847,7 +3857,7 @@ units:
         meaning_tr: Agar kimdir mehmondo'st bo'lsa, u begonalarga do'stona munosabatda
           bo'ladi.
         example_tr: Kechki ovqat paytida dadam do'stlarimga juda mehmondo'st edi.
-      11:
+      12:
         word: manor
         translation: koʻp xonali uy
         audio: 4476
@@ -3857,7 +3867,7 @@ units:
         meaning_tr: Manor - bu ko'p xonali katta uy.
         example_tr: Manorning go'zal bog'lardan tashqari qirqdan ortiq xonalari bor
           edi.
-      12:
+      13:
         word: monastery
         translation: monastir
         audio: 4477
@@ -3866,7 +3876,7 @@ units:
         type: n
         meaning_tr: Monastir - bu rohiblar yashaydigan bino.
         example_tr: Ushbu monastirdagi rohiblar non va musiqa bilan mashhur.
-      13:
+      14:
         word: nursery
         translation: bolalar xonasi
         audio: 4478
@@ -3879,7 +3889,7 @@ units:
           yoki ularga g'amxo'rlik qiladigan xona.
         example_tr: Bolalar ota-onalari bilan xayrli tun o'pishib, bolalar bog'chasiga
           ko'tarilishdi.
-      14:
+      15:
         word: outstretched
         translation: choʻzilgan, yoyiq
         audio: 4479
@@ -3888,7 +3898,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa cho'zilgan bo'lsa, u to'liq uzunligiga uzaytiriladi.
         example_tr: Mushuk old oyoqlarini yoyib, orqa oyoqlarida turdi.
-      15:
+      16:
         word: parcel
         translation: posilka
         audio: 4480
@@ -3898,7 +3908,7 @@ units:
         meaning_tr: Posilka - bu biror joyga olib o'tiladigan yoki pochta orqali yuboriladigan
           narsalar to'plami.
         example_tr: Posilka uni kimdir bosganga o'xshardi.
-      16:
+      17:
         word: profile
         translation: profil, yon tomondan koʻrinishi
         audio: 4481
@@ -3907,7 +3917,7 @@ units:
         type: n
         meaning_tr: Profil odatda yon tomondan ko'rinadigan yuzning konturidir.
         example_tr: Oliviya profilining chizilgani juda yaxshi chiqdi.
-      17:
+      18:
         word: vivacious
         translation: quvnoq
         audio: 4482
@@ -3916,7 +3926,7 @@ units:
         type: adj
         meaning_tr: Agar kimdir quvnoq bo'lsa, u suhbatdosh va quvnoq.
         example_tr: Bayramda hamma juda quvnoq va maroqli dam olishdi.
-      18:
+      19:
         word: winding
         translation: burama tarzda oqmoq
         audio: 4483
@@ -3925,7 +3935,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa o'ralgan bo'lsa, u burilish yo'li bilan boradi.
         example_tr: Aylanib yurgan daryo aylanib, tepaliklar etagini aylanib chiqdi.
-      19:
+      20:
         word: zip
         translation: molniyani qadamoq
         audio: 4484
@@ -3935,17 +3945,6 @@ units:
         meaning_tr: Biror narsani fermuar bilan yopish degani.
         example_tr: U kitoblarini ichiga qo'ygandan so'ng ryukzakni fermuar bilan
           yopdi.
-      20:
-        word: airway
-        translation: nafas yoʻli
-        audio: 4485
-        meaning: An airway is the passage by which air reaches a person’s lungs.
-        example: Since he was sick, mucus would occasionally get stuck in his airway.
-        type: n
-        meaning_tr: Havo yo'li - bu havo odamning o'pkasiga etib boradigan o'tish
-          joyi.
-        example_tr: U kasal bo'lganligi sababli, nafas olish yo'liga vaqti-vaqti bilan
-          shilimshiq tiqilib qolardi.
     photos:
       - 4227
       - 4229
@@ -3960,6 +3959,17 @@ units:
   19:
     words:
       1:
+        word: airway
+        translation: nafas yoʻli
+        audio: 4485
+        meaning: An airway is the passage by which air reaches a person’s lungs.
+        example: Since he was sick, mucus would occasionally get stuck in his airway.
+        type: n
+        meaning_tr: Havo yo'li - bu havo odamning o'pkasiga etib boradigan o'tish
+          joyi.
+        example_tr: U kasal bo'lganligi sababli, nafas olish yo'liga vaqti-vaqti bilan
+          shilimshiq tiqilib qolardi.
+      2:
         word: Almighty
         translation: Alloh
         audio: 4486
@@ -3968,7 +3978,7 @@ units:
         type: n
         meaning_tr: Qudratli dinda xudoning nomi.
         example_tr: Ovqatlanishdan oldin, ular taomlari uchun Qodirga shukr qilishdi.
-      2:
+      3:
         word: advent
         translation: paydo boʻlish
         audio: 4487
@@ -3979,7 +3989,7 @@ units:
         meaning_tr: Advent - muhim shaxs, narsa yoki hodisaning kelishi yoki boshlanishi.
         example_tr: Radioning paydo bo'lishi davrida juda kam sonli dasturlar aslida
           musiqa ijro etgan.
-      3:
+      4:
         word: constellation
         translation: yulduzlar turkumi, burj
         audio: 4488
@@ -3989,7 +3999,7 @@ units:
         type: n
         meaning_tr: Yulduz turkumi - bu taniqli shaklga ega bo'lgan yulduzlar guruhi.
         example_tr: Kvadrat shaklidagi bu yulduz turkumi uchayotgan ot sharafiga nomlangan.
-      4:
+      5:
         word: definitive
         translation: eng ishonchli
         audio: 4489
@@ -3999,7 +4009,7 @@ units:
         meaning_tr: Agar biror narsa aniq bo'lsa, u eng rasmiy hisoblanadi.
         example_tr: Ushbu kutubxonada qadimgi Misrga oid kitoblarning aniq to'plami
           mavjud.
-      5:
+      6:
         word: equate
         translation: tenglashtirmoq, -ga yoymoq
         audio: 4490
@@ -4011,7 +4021,7 @@ units:
           juda o'xshash deb hisoblashdir.
         example_tr: U erkakning tartibsiz ko'rinishini mas'uliyatning etishmasligi
           bilan tenglashtirdi.
-      6:
+      7:
         word: inhale
         translation: ichiga tortmoq
         audio: 4491
@@ -4021,7 +4031,7 @@ units:
         meaning_tr: Nafas olish o'pkaga havo yoki hidni olish demakdir.
         example_tr: Kampir tog‘ning salqin va musaffo havosidan nafas oldi va o‘zini
           erkin his qildi.
-      7:
+      8:
         word: invoke
         translation: yolvormoq, chaqirmoq
         audio: 4492
@@ -4034,7 +4044,7 @@ units:
           so'rash uchun uni eslatishdir.
         example_tr: Jangga kirishdan oldin askar himoya qilish uchun xudosining ismini
           chaqirdi.
-      8:
+      9:
         word: lunar
         translation: oyga oid, oy...
         audio: 4493
@@ -4043,7 +4053,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa oy bo'lsa, u oy bilan bog'liq.
         example_tr: Oy tutilishi paytida Yerning soyasi oy yuzasini qoraytiradi.
-      9:
+      10:
         word: novelty
         translation: yangilik
         audio: 4494
@@ -4052,7 +4062,7 @@ units:
         type: n
         meaning_tr: Yangilik - bu yangi, o'ziga xos yoki g'alati narsa.
         example_tr: Muzqaymoq uning uchun yangilik edi, chunki u kamdan-kam bo'lgan.
-      10:
+      11:
         word: outmoded
         translation: urfdan chiqqan
         audio: 4495
@@ -4062,7 +4072,7 @@ units:
         meaning_tr: Agar biror narsa eskirgan bo'lsa, u endi modada yoki foydalanishda
           emas.
         example_tr: Qora va oq televizorlar eskirgan.
-      11:
+      12:
         word: personalize
         translation: shaxsiylashtirmoq
         audio: 4496
@@ -4073,7 +4083,7 @@ units:
         meaning_tr: Biror narsani shaxsiylashtirish, uni insonning o'ziga xos ehtiyojlarini
           qondirish uchun loyihalashni anglatadi.
         example_tr: U ayolga yaxshiroq mashq qilish uchun mashqlarni shaxsiylashtirdi.
-      12:
+      13:
         word: pertain
         translation: bogʻliq boʻlmoq, asoslanmoq
         audio: 4497
@@ -4085,7 +4095,7 @@ units:
           bo'lmoq degan ma'noni anglatadi.
         example_tr: Advokatning barcha savollari jinoyat kechasi atrofidagi voqealarga
           tegishli.
-      13:
+      14:
         word: primal
         translation: juda oddiy, sodda
         audio: 4498
@@ -4098,7 +4108,7 @@ units:
           kelib chiqishi bilan bog'liq.
         example_tr: Lager olovida ovqat pishirish taom tayyorlashning asosiy usulidek
           tuyuldi.
-      14:
+      15:
         word: psychiatric
         translation: ruhiy, psixik
         audio: 4499
@@ -4109,7 +4119,7 @@ units:
         meaning_tr: Agar biror narsa psixiatrik bo'lsa, unda bu ruhiy kasallik yoki
           uni davolash bilan bog'liq.
         example_tr: Shifokor bemorda psixiatrik muammo bo'lishi mumkinligini aytdi.
-      15:
+      16:
         word: psychiatry
         translation: psixiatriya
         audio: 4500
@@ -4119,7 +4129,7 @@ units:
         meaning_tr: Psixiatriya ruhiy kasalliklarni o'rganish va davolashdir.
         example_tr: Psixiatriyani o'rganish menga ruhiy kasalliklar haqida ko'p narsalarni
           o'rgatdi.
-      16:
+      17:
         word: reflex
         translation: refleks
         audio: 4501
@@ -4130,7 +4140,7 @@ units:
         meaning_tr: Refleks - bu ongsiz harakat bo'lib, unda tana a'zosi biron bir
           hodisaga javob beradi.
         example_tr: Shifokor tizzasini rezina bolg'a bilan urganida refleks bor edi.
-      17:
+      18:
         word: seizure
         translation: tutqanoq
         audio: 4502
@@ -4141,7 +4151,7 @@ units:
           va titraydi.
         example_tr: Yorqin miltillovchi chiroqlar bolalarda soqchilikni keltirib chiqarishi
           mumkin.
-      18:
+      19:
         word: session
         translation: sessiya, majlis
         audio: 4503
@@ -4154,7 +4164,7 @@ units:
           ravishda yig'ilish.
         example_tr: Har uch oyda menejerlar mintaqaviy savdoni muhokama qilish uchun
           sessiyada uchrashishdi.
-      19:
+      20:
         word: utensil
         translation: idish
         audio: 4504
@@ -4164,17 +4174,6 @@ units:
         type: n
         meaning_tr: Idish - bu umumiy asbob yoki idish.
         example_tr: Aftidan, vilka sho'rva yeyish uchun noto'g'ri idish bo'lib tuyuldi.
-      20:
-        word: adhesive
-        translation: kley, yelim
-        audio: 4505
-        meaning: An adhesive is a substance used for sticking things together.
-        example: The carpenter used an adhesive to hold the two pieces of wood together.
-        type: n
-        meaning_tr: Yelim - bu narsalarni bir-biriga yopishtirish uchun ishlatiladigan
-          moddadir.
-        example_tr: Duradgor ikki bo‘lakni bir-biriga yopishtiruvchi yopishtiruvchi
-          vositadan foydalangan.
     photos:
       - 4239
       - 4241
@@ -4189,6 +4188,17 @@ units:
   20:
     words:
       1:
+        word: adhesive
+        translation: kley, yelim
+        audio: 4505
+        meaning: An adhesive is a substance used for sticking things together.
+        example: The carpenter used an adhesive to hold the two pieces of wood together.
+        type: n
+        meaning_tr: Yelim - bu narsalarni bir-biriga yopishtirish uchun ishlatiladigan
+          moddadir.
+        example_tr: Duradgor ikki bo‘lakni bir-biriga yopishtiruvchi yopishtiruvchi
+          vositadan foydalangan.
+      2:
         word: adverse
         translation: zararli
         audio: 4506
@@ -4198,7 +4208,7 @@ units:
         meaning_tr: Agar biror narsa yomon bo'lsa, u zararli.
         example_tr: Sog'lom ovqat iste'mol qilmaslik sog'lig'ingizga salbiy ta'sir
           ko'rsatishi mumkin.
-      2:
+      3:
         word: dependency
         translation: tobelik, qaramlik, muhtojlik
         audio: 4507
@@ -4207,7 +4217,7 @@ units:
         type: n
         meaning_tr: Tobelik - bu kimgadir yoki biror narsaga kuchli ehtiyoj.
         example_tr: Bola hali ham onasiga qaram bo'lib qoladi.
-      3:
+      4:
         word: dump
         translation: tashlab yubormoq
         audio: 4508
@@ -4217,7 +4227,7 @@ units:
         meaning_tr: Biror narsani tashlab yuborish, uni tashlash yoki undan qutulish
           demakdir.
         example_tr: U axlatni axlat qutisiga tashladi.
-      4:
+      5:
         word: eternal
         translation: abadiy, mangu
         audio: 4509
@@ -4226,7 +4236,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa abadiy bo'lsa, u abadiy davom etadi.
         example_tr: U unga bo'lgan sevgisi abadiy ekanligini aytdi.
-      5:
+      6:
         word: fluctuate
         translation: oʻzgarib turmoq, oʻynab turmoq
         audio: 4510
@@ -4235,7 +4245,7 @@ units:
         type: v
         meaning_tr: Tebranish, son yoki miqdorning ko'tarilishi va kamayishini anglatadi.
         example_tr: Benzin narxi oy davomida o'zgarib turdi.
-      6:
+      7:
         word: fro
         translation: uyon buyonga
         audio: 4511
@@ -4247,7 +4257,7 @@ units:
           oldinga yoki yonma-yon harakatlanadi.
         example_tr: Uning uzun sochlari belanchakda tebrangancha u yoqdan-bu yoqqa
           yurardi.
-      7:
+      8:
         word: inclusion
         translation: qoʻshish, qoʻshib olish
         audio: 4512
@@ -4257,7 +4267,7 @@ units:
         meaning_tr: Inklyuzivlik - bu kimnidir yoki biror narsani guruhga kiritish
           harakati.
         example_tr: Uning fotoklubga kiritilishi yaxshi kutib olindi.
-      8:
+      9:
         word: intermediate
         translation: oʻrtacha, oʻrta
         audio: 4513
@@ -4269,7 +4279,7 @@ units:
           o'rtasida bo'ladi.
         example_tr: U tushdan keyin chang'i sportini boshlash uchun oraliq chang'i
           tepaligini tanladi.
-      9:
+      10:
         word: intermittent
         translation: vaqti vaqti bilan sodir boʻladigan
         audio: 4514
@@ -4282,7 +4292,7 @@ units:
           tarzda sodir bo'ladi.
         example_tr: E'tiborni qaratish qiyin edi, chunki tashqarida ishchilardan vaqti-vaqti
           bilan shovqin eshitildi.
-      10:
+      11:
         word: mentor
         translation: maslahatchi, ekspert
         audio: 4515
@@ -4293,7 +4303,7 @@ units:
           shaxs.
         example_tr: Talabalarning har biri tajribada yordam berish uchun murabbiy
           tanladi.
-      11:
+      12:
         word: phoenix
         translation: foneks, qushi
         audio: 4516
@@ -4303,7 +4313,7 @@ units:
         meaning_tr: Feniks - hayoliy qush, u yonib kul bo'lib, qayta tug'iladi.
         example_tr: Ba'zilar Feniksni qayta tug'ilish va yangi boshlanish ramzi deb
           hisoblashadi.
-      12:
+      13:
         word: photosynthesis
         translation: fotosintez
         audio: 4517
@@ -4315,7 +4325,7 @@ units:
           jarayoni.
         example_tr: O'simliklarni yashil rangga aylantiradigan kimyoviy moddalar fotosintezda
           ishlatiladi.
-      13:
+      14:
         word: pollen
         translation: fil changi
         audio: 4518
@@ -4325,7 +4335,7 @@ units:
         type: n
         meaning_tr: Polen o'simliklar gullarida hosil bo'lgan mayda sariq kukundir.
         example_tr: Bahor faslida havodagi gulchanglar ba'zi odamlarni kasal qiladi.
-      14:
+      15:
         word: regain
         translation: qayta qoʻlga kiritmoq
         audio: 4519
@@ -4334,7 +4344,7 @@ units:
         type: v
         meaning_tr: Biror narsani qaytarib olish, uni qaytarib olishni anglatadi.
         example_tr: Batareya qayta zaryadlangandan so'ng o'z kuchini tikladi.
-      15:
+      16:
         word: reverse
         translation: oʻgirmoq, teskari aylantirmoq
         audio: 4520
@@ -4343,7 +4353,7 @@ units:
         type: v
         meaning_tr: Orqaga teskari tomonga o'zgartirishni anglatadi.
         example_tr: Ular belgini ko'rib, yo'nalishini o'zgartirdilar.
-      16:
+      17:
         word: swarm
         translation: hashoratlar galasi
         audio: 4521
@@ -4352,7 +4362,7 @@ units:
         type: n
         meaning_tr: Toʻda — uchuvchi hasharotlar guruhi.
         example_tr: Yozgi osmonni chiroyli kapalaklar to'dasi to'ldirdi.
-      17:
+      18:
         word: texture
         translation: sirt, tekstura
         audio: 4522
@@ -4362,7 +4372,7 @@ units:
         meaning_tr: Tekstura - bu teginish orqali bilish mumkin bo'lgan narsaning
           sifati.
         example_tr: Uning terisi juda yumshoq va silliq edi.
-      18:
+      19:
         word: tickle
         translation: qitiqlamoq
         audio: 4523
@@ -4372,7 +4382,7 @@ units:
         meaning_tr: Biror kishini qitiqlash - unga kulgiga sabab bo'ladigan tarzda
           teginish.
         example_tr: Onasi bolaning oyog'ini qitiqladi va u kulib baqirdi.
-      19:
+      20:
         word: vibrant
         translation: yorqin
         audio: 4524
@@ -4381,17 +4391,6 @@ units:
         type: adj
         meaning_tr: Agar biror narsa jonli bo'lsa, u yorqin va rangga to'la.
         example_tr: Ularning yangi ko'ylaklari qizilning yorqin soyasida edi.
-      20:
-        word: abolish
-        translation: bekor qilmoq
-        audio: 4525
-        meaning: To abolish something means to put an end to it, such as a system
-          or law.
-        example: President Lincoln abolished slavery in the US.
-        type: v
-        meaning_tr: Biror narsani bekor qilish, unga chek qo'yish demakdir, masalan,
-          tizim yoki qonun.
-        example_tr: Prezident Linkoln AQShda qullikni bekor qildi.
     photos:
       - 4252
       - 4254
@@ -4406,6 +4405,17 @@ units:
   21:
     words:
       1:
+        word: abolish
+        translation: bekor qilmoq
+        audio: 4525
+        meaning: To abolish something means to put an end to it, such as a system
+          or law.
+        example: President Lincoln abolished slavery in the US.
+        type: v
+        meaning_tr: Biror narsani bekor qilish, unga chek qo'yish demakdir, masalan,
+          tizim yoki qonun.
+        example_tr: Prezident Linkoln AQShda qullikni bekor qildi.
+      2:
         word: amend
         translation: yaxshilamoq, tuzatmoq
         audio: 4526
@@ -4416,7 +4426,7 @@ units:
           o'zgartirishni anglatadi.
         example_tr: Mamlakatlar shartnomaga o'zgartirishlar kiritish zarurligi haqida
           kelishib oldilar.
-      2:
+      3:
         word: aspire
         translation: qattiq hohlamoq/ istamoq
         audio: 4527
@@ -4426,7 +4436,7 @@ units:
         meaning_tr: Intilish, biror narsaga erishish yoki qilish istagi kuchli bo'lishni
           anglatadi.
         example_tr: Jorj yoshligidan shifokor bo'lishni orzu qilgan.
-      3:
+      4:
         word: censor
         translation: senzuradan oʻtkazmoq
         audio: 4528
@@ -4437,7 +4447,7 @@ units:
           uni olib tashlashni anglatadi.
         example_tr: Begunoh odamlarni himoya qilish uchun bomba joylashuvi tsenzura
           qilingan.
-      4:
+      5:
         word: charter
         translation: nizom, ustav
         audio: 4529
@@ -4448,7 +4458,7 @@ units:
         meaning_tr: Nizom - bu tashkilot yoki guruhning huquqlarini tavsiflovchi hujjat.
         example_tr: Kompaniya nizomida barcha xodimlar soliq to'lashlari kerakligi
           tushuntirilgan.
-      5:
+      6:
         word: constitution
         translation: konstitutsiya
         audio: 4530
@@ -4459,7 +4469,7 @@ units:
         meaning_tr: Konstitutsiya hukumatning tamoyillari hujjatidir.
         example_tr: Mamlakat konstitutsiyasiga ko'ra, bosh vazir faqat uch muddatga
           saylanishi mumkin.
-      6:
+      7:
         word: cosmopolitan
         translation: kosmopolit
         audio: 4531
@@ -4471,7 +4481,7 @@ units:
         meaning_tr: Agar joy kosmopolit bo'lsa, u turli joylardan kelgan odamlar bilan
           to'la.
         example_tr: Kosmopolit shaharda o'nlab turli xil restoranlar mavjud.
-      7:
+      8:
         word: disseminate
         translation: tarqatmoq
         audio: 4532
@@ -4480,7 +4490,7 @@ units:
         type: v
         meaning_tr: Axborot yoki bilimni tarqatish uni tarqatish demakdir.
         example_tr: Tashkilot chekishning zarari haqida ma'lumot tarqatadi.
-      8:
+      9:
         word: flatter
         translation: xushomad qilmoq, tilyogʻlamalik qilmoq
         audio: 4533
@@ -4491,7 +4501,7 @@ units:
           demakdir.
         example_tr: U yangi ko'ylagim ajoyib ko'rinishini aytganida, shunchaki xushomad
           qilardi.
-      9:
+      10:
         word: infamous
         translation: yomon nom chiqargan
         audio: 4534
@@ -4501,7 +4511,7 @@ units:
         meaning_tr: Biror kishi obro'li bo'lsa, u yomon narsa bilan tanilgan.
         example_tr: O'sha yangiliklar kanali xolis ma'lumotlarni taqdim etishi bilan
           mashhur.
-      10:
+      11:
         word: lame
         translation: oqsoq, choʻloq
         audio: 4535
@@ -4513,7 +4523,7 @@ units:
           to'g'ri yura olmaydi.
         example_tr: Dahshatli baxtsiz hodisa ko'plab odamlarning hayotiga zomin bo'ldi
           va yana bir qancha odamlar cho'loq bo'ldi.
-      11:
+      12:
         word: limp
         translation: oqloqlanmoq
         audio: 4536
@@ -4524,7 +4534,7 @@ units:
         meaning_tr: Oqsoqlanish, birovning oyog'i yoki oyog'i shikastlangani uchun
           qiyinchilik bilan yurishni anglatadi.
         example_tr: Jarohatdan keyin futbolchi oqsoqlanib maydonni tark etdi.
-      12:
+      13:
         word: outburst
         translation: avj olish, hayqiriq
         audio: 4537
@@ -4533,7 +4543,7 @@ units:
         type: n
         meaning_tr: Portlash hissiyotning to'satdan kuchli ifodasidir.
         example_tr: Komediyachi sahnaga chiqqanida shov-shuv ko‘tarildi.
-      13:
+      14:
         word: pathological
         translation: patologik
         audio: 4538
@@ -4546,7 +4556,7 @@ units:
           bo'lmaydigan va nazorat qilib bo'lmaydigandir.
         example_tr: Patologik yolg'onchi hatto ahamiyatsiz narsalar haqida haqiqatni
           ayta olmadi.
-      14:
+      15:
         word: phenomenal
         translation: gʻoyat zoʻr, noyob
         audio: 4539
@@ -4555,7 +4565,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa fenomenal bo'lsa, u g'ayrioddiy ajoyibdir.
         example_tr: Bolaning pianino chalish qobiliyati ajoyib narsa emas.
-      15:
+      16:
         word: poll
         translation: ijtimoiy soʻrov, soʻrovnoma
         audio: 4540
@@ -4567,7 +4577,7 @@ units:
           so'rov.
         example_tr: So‘rov shuni ko‘rsatdiki, ko‘pchilik guruh zo‘ravonligini to‘xtatish
           rejasini qo‘llab-quvvatlamoqda.
-      16:
+      17:
         word: remorse
         translation: pushaymonlik, afsus
         audio: 4541
@@ -4577,7 +4587,7 @@ units:
         meaning_tr: Tavba - kuchli qayg'u va pushaymonlik hissi.
         example_tr: Men nima qilganimni anglab etgach, qilgan ishlarimdan pushaymon
           bo'ldim.
-      17:
+      18:
         word: secrecy
         translation: maxfiylik, sir saqlash
         audio: 4542
@@ -4586,7 +4596,7 @@ units:
         type: n
         meaning_tr: Maxfiylik - bu narsalarni sir saqlash harakati.
         example_tr: Katta tashkilotning maxfiyligi hukumatni asabiylashtirdi.
-      18:
+      19:
         word: tackle
         translation: hal qilmoq, yechmoq
         audio: 4543
@@ -4597,7 +4607,7 @@ units:
         meaning_tr: Biror narsani hal qilish, uni qat'iy va samarali tarzda hal qilishni
           anglatadi.
         example_tr: Bunday ijtimoiy muammolarni zudlik bilan hal qilish kerak.
-      19:
+      20:
         word: trance
         translation: trans holati (miyaning karaxtligi)
         audio: 4544
@@ -4608,17 +4618,6 @@ units:
         meaning_tr: Trans - bu odamlar uxlab yotgandek tuyuladigan va o'zlarini nazorat
           qila olmaydigan holat.
         example_tr: Ayolning kuchli ko'zlari ko'pincha erkaklarni transga tushiradi.
-      20:
-        word: coward
-        translation: qoʻrqoq
-        audio: 4545
-        meaning: A coward is a person who lacks courage to do risky or dangerous things.
-        example: A firefighter cannot be a coward. They have to be able to act quickly.
-        type: n
-        meaning_tr: Qo'rqoq - bu xavfli yoki xavfli ishlarni qilish uchun jasoratga
-          ega bo'lmagan odam.
-        example_tr: O't o'chiruvchi qo'rqoq bo'la olmaydi. Ular tezda harakat qila
-          olishlari kerak.
     photos:
       - 4267
       - 4269
@@ -4633,6 +4632,17 @@ units:
   22:
     words:
       1:
+        word: coward
+        translation: qoʻrqoq
+        audio: 4545
+        meaning: A coward is a person who lacks courage to do risky or dangerous things.
+        example: A firefighter cannot be a coward. They have to be able to act quickly.
+        type: n
+        meaning_tr: Qo'rqoq - bu xavfli yoki xavfli ishlarni qilish uchun jasoratga
+          ega bo'lmagan odam.
+        example_tr: O't o'chiruvchi qo'rqoq bo'la olmaydi. Ular tezda harakat qila
+          olishlari kerak.
+      2:
         word: delete
         translation: oʻchirib tashlamoq
         audio: 4546
@@ -4642,7 +4652,7 @@ units:
         meaning_tr: Biror narsani o'chirish yozma materialni olib tashlash yoki o'chirishni
           anglatadi.
         example_tr: Uning nutqidan bir qancha satrlar o‘chirib tashlangan edi.
-      2:
+      3:
         word: firsthand
         translation: birinchi qoʻl...
         audio: 4547
@@ -4652,7 +4662,7 @@ units:
         meaning_tr: Agar biror narsa birinchi qo'l bo'lsa, u asl manbadan.
         example_tr: Agar siz birinchi qo'l bilim olishni istasangiz, uni ko'rgan odamdan
           so'rang.
-      3:
+      4:
         word: earnest
         translation: samimiy, rostgoʻy
         audio: 4548
@@ -4662,7 +4672,7 @@ units:
         type: adj
         meaning_tr: Agar kimdir samimiy bo'lsa, u haloldir.
         example_tr: Bola onasiga idishni qanday sindirganini aytib, juda jiddiy edi.
-      4:
+      5:
         word: ethnic
         translation: etnik
         audio: 4549
@@ -4673,7 +4683,7 @@ units:
         meaning_tr: Agar biror narsa etnik bo'lsa, u o'xshash madaniyatga ega bo'lgan
           guruh bilan bog'liq.
         example_tr: Shaharning ko'p qismlarida turli etnik jamoalar yashaydi.
-      5:
+      6:
         word: exclude
         translation: qabul qilmaslik, chetlatmoq
         audio: 4550
@@ -4682,7 +4692,7 @@ units:
         type: v
         meaning_tr: Biror kishini istisno qilish, uni guruhga qabul qilmaslikni anglatadi.
         example_tr: Kerol tanlovdan chetlashtirildi, chunki uning do'sti hakam bo'lgan.
-      6:
+      7:
         word: fluent
         translation: ravon
         audio: 4551
@@ -4695,7 +4705,7 @@ units:
           oladi.
         example_tr: U nemis tilini shu qadar yaxshi bilardiki, uni Germaniyadan deb
           o‘ylagan bo‘lardingiz.
-      7:
+      8:
         word: imperial
         translation: imperiyaga qarashli, imperiya...
         audio: 4552
@@ -4705,7 +4715,7 @@ units:
         meaning_tr: Agar biror narsa imperiya bo'lsa, u imperiyaga tegishli yoki u
           bilan bog'liq.
         example_tr: Ushbu eski imperator tangalari bir vaqtlar Rim imperiyasida ishlatilgan.
-      8:
+      9:
         word: inclusive
         translation: barchasini ichiga olmoq
         audio: 4553
@@ -4717,7 +4727,7 @@ units:
           va odamlar uchun ochiqdir.
         example_tr: Ko'proq inklyuziv tadbir bolalarning ishtirok etishiga imkon bergan
           bo'lardi.
-      9:
+      10:
         word: legislature
         translation: qonun chiqaruvchi hokimiyat/ organ
         audio: 4554
@@ -4727,7 +4737,7 @@ units:
         meaning_tr: Qonun chiqaruvchi organ - bu hukumatning qonunlar ishlab chiqaruvchi
           bo'limi.
         example_tr: Senator milliy qonun chiqaruvchi organda o'n yil ishlagan.
-      10:
+      11:
         word: linguistic
         translation: lingvistikaga oid, lingvistik...
         audio: 4555
@@ -4738,7 +4748,7 @@ units:
         meaning_tr: Agar biror narsa lingvistik bo'lsa, u til bilan bog'liq.
         example_tr: Madaniyatni o'rganishning lingvistik usuli ushbu madaniyat ichidagi
           so'zlarga qaratilgan.
-      11:
+      12:
         word: monolingual
         translation: bir tilli
         audio: 4556
@@ -4748,7 +4758,7 @@ units:
         meaning_tr: Agar kimdir bir tilli bo'lsa, u faqat bitta tilda gaplashadi.
         example_tr: Bugungi global iqtisodiyotda bir tilda bo'lish imkoniyatlaringizni
           cheklaydi.
-      12:
+      13:
         word: nationality
         translation: milliy
         audio: 4557
@@ -4758,7 +4768,7 @@ units:
         meaning_tr: Millat - bu siz kelgan millatga asoslangan o'ziga xoslik.
         example_tr: Uning millati nemis, lekin u frantsuz, ispan va koreys tillarini
           biladi.
-      13:
+      14:
         word: patriot
         translation: vatanparvar
         audio: 4558
@@ -4768,7 +4778,7 @@ units:
         meaning_tr: Vatanparvar - bu o'z vatanini sevadigan, qo'llab-quvvatlaydigan
           va himoya qiladigan odam.
         example_tr: Har yili yosh vatanparvarlar o'z mamlakatlari harbiylariga qo'shilishadi.
-      14:
+      15:
         word: prosecute
         translation: ayblamoq, qoralamoq
         audio: 4559
@@ -4779,7 +4789,7 @@ units:
           choralar ko'rish demakdir.
         example_tr: Ular daryoda ruxsatsiz baliq ovlaganliklari uchun javobgarlikka
           tortilgan.
-      15:
+      16:
         word: racial
         translation: irqiy
         audio: 4560
@@ -4789,7 +4799,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa irqiy bo'lsa, u irq yoki irq bilan bog'liq.
         example_tr: Irqiy guruhlar o'rtasidagi farqlar jismoniy xususiyatlar va madaniyatdir.
-      16:
+      17:
         word: solemn
         translation: samimiy, ochiq
         audio: 4561
@@ -4800,7 +4810,7 @@ units:
         meaning_tr: Agar biror narsa tantanali bo'lsa, u jiddiy va haloldir.
         example_tr: Professor o'zi va talabalari o'rtasidagi tantanali munosabatni
           afzal ko'rdi.
-      17:
+      18:
         word: solidarity
         translation: birdamlik
         audio: 4562
@@ -4812,7 +4822,7 @@ units:
           ittifoq.
         example_tr: Barcha fuqarolar o'zgarishlarni yaratish uchun birdamlik namoyishida
           birlashdilar.
-      18:
+      19:
         word: tact
         translation: andisha
         audio: 4563
@@ -4824,7 +4834,7 @@ units:
           qobiliyatidir.
         example_tr: Ikkala tomon ham rozi bo'lmagani uchun tinchlik o'rnatish uchun
           xushmuomala odam kerak edi.
-      19:
+      20:
         word: undermine
         translation: zaiflashtirib, kuchsizlantirmoq
         audio: 4564
@@ -4836,19 +4846,6 @@ units:
           xiyonat qilish yoki zaiflashtirish demakdir.
         example_tr: Hujjatlar ishchilarning o'z xo'jayinlarining halolligiga ishonchini
           yo'qotishga yordam berdi.
-      20:
-        word: allocate
-        translation: ulashmoq, ajratmoq
-        audio: 4565
-        meaning: To allocate something means to put it aside for a certain purpose
-          or person.
-        example: The government allocated $100 million to aid the disaster relief
-          effort.
-        type: v
-        meaning_tr: Biror narsani ajratish, uni ma'lum bir maqsad yoki shaxs uchun
-          chetga surish demakdir.
-        example_tr: Hukumat tabiiy ofat oqibatlarini bartaraf etish uchun 100 million
-          dollar ajratdi.
     photos:
       - 4280
       - 4282
@@ -4863,6 +4860,19 @@ units:
   23:
     words:
       1:
+        word: allocate
+        translation: ulashmoq, ajratmoq
+        audio: 4565
+        meaning: To allocate something means to put it aside for a certain purpose
+          or person.
+        example: The government allocated $100 million to aid the disaster relief
+          effort.
+        type: v
+        meaning_tr: Biror narsani ajratish, uni ma'lum bir maqsad yoki shaxs uchun
+          chetga surish demakdir.
+        example_tr: Hukumat tabiiy ofat oqibatlarini bartaraf etish uchun 100 million
+          dollar ajratdi.
+      2:
         word: appetizing
         translation: ishtaha ochar
         audio: 4566
@@ -4871,7 +4881,7 @@ units:
         type: adj.
         meaning_tr: Ovqat ishtahani ochganda, u juda yaxshi ko'rinadi va hidlaydi.
         example_tr: Ishtahani ochuvchi pechenye tarelkasi yarim soatda g‘oyib bo‘ldi.
-      2:
+      3:
         word: blizzard
         translation: boʻron, izgʻirin
         audio: 4567
@@ -4880,7 +4890,7 @@ units:
         type: n.
         meaning_tr: Qor bo'roni - kuchli shamollar bilan kuchli qor bo'roni.
         example_tr: Dahshatli bo'ron paytida ko'chaga chiqishga jur'at eta olmadik.
-      3:
+      4:
         word: cavity
         translation: kovak
         audio: 4568
@@ -4890,7 +4900,7 @@ units:
         type: n.
         meaning_tr: Bo'shliq - bu biror narsadagi teshik yoki bo'shliq.
         example_tr: G‘or devorida hayvon yashaydigan kichik bo‘shliq bor edi.
-      4:
+      5:
         word: clockwise
         translation: aylantirib
         audio: 4569
@@ -4901,7 +4911,7 @@ units:
         meaning_tr: Agar biror narsa soat yo'nalishi bo'yicha harakatlansa, u soat
           bilan bir xil yo'nalishda aylana bo'ylab harakatlanadi.
         example_tr: Vintni mahkamlash uchun soat yo'nalishi bo'yicha aylantiring.
-      5:
+      6:
         word: concentric
         translation: konsentrik
         audio: 4570
@@ -4911,7 +4921,7 @@ units:
         meaning_tr: Agar doiralar yoki halqalar konsentrik bo'lsa, ular bir xil markazga
           ega.
         example_tr: Maqsad konsentrik doiralar seriyasi edi.
-      6:
+      7:
         word: courtesy
         translation: xushmuomalalik
         audio: 4571
@@ -4921,7 +4931,7 @@ units:
         meaning_tr: Xushmuomalalik - bu odob-axloq yoki ijtimoiy xulq-atvorning mukammalligi.
         example_tr: Odamlar uning uyiga tashrif buyurishganda Jenna doimo o'zini juda
           xushmuomalalik bilan tutadi.
-      7:
+      8:
         word: crisp
         translation: qarsildoq, qovurilgan
         audio: 4572
@@ -4932,7 +4942,7 @@ units:
         meaning_tr: Ovqat tiniq bo'lsa, u qattiq yoki yoqimli tarzda qattiq yuzaga
           ega.
         example_tr: Mening sevimli gazak - bu tiniq, mazali kartoshka chiplari.
-      8:
+      9:
         word: discord
         translation: kelishmovchilik
         audio: 4573
@@ -4941,7 +4951,7 @@ units:
         type: n.
         meaning_tr: Nizo - bu odamlar o'rtasidagi kelishmovchilik yoki janjal.
         example_tr: Tok-shouda mutaxassislar o'rtasida juda ko'p kelishmovchilik bo'lgan.
-      9:
+      10:
         word: frigid
         translation: oʻta izgʻirin/ sovuq
         audio: 4574
@@ -4951,7 +4961,7 @@ units:
         meaning_tr: Agar biror narsa sovuq bo'lsa, u juda sovuq.
         example_tr: Biz sayohatga chiqmaslikka qaror qildik, chunki havo juda sovuq
           edi.
-      10:
+      11:
         word: generate
         translation: yaratmoq, tashkil qilmoq
         audio: 4575
@@ -4963,7 +4973,7 @@ units:
           sabab bo'lishni anglatadi.
         example_tr: Shahar hokimi yangi ish o‘rinlari yaratishga va kam ta’minlanganlarga
           yordam berishga va’da berdi.
-      11:
+      12:
         word: glacial
         translation: qirovli, sovuq
         audio: 4576
@@ -4974,7 +4984,7 @@ units:
         meaning_tr: Agar biror narsa muzlik bo'lsa, u sekin harakatlanadigan katta
           muz massalariga tegishli.
         example_tr: Pingvinlar Antarktidaning muzlik hududlarida ko'payadi.
-      12:
+      13:
         word: interchange
         translation: fikr, almashish
         audio: 4577
@@ -4985,7 +4995,7 @@ units:
         meaning_tr: Odamlar o'rtasidagi fikr almashish - bu har bir shaxsning g'oyasini
           muhokama qilish.
         example_tr: Guruhlar o‘rtasida fikr almashuvi bo‘ldi.
-      13:
+      14:
         word: locker
         translation: shkaf, shkafcha
         audio: 4578
@@ -4995,7 +5005,7 @@ units:
         type: n.
         meaning_tr: Shkaf - bu odamlar o'z narsalarini saqlaydigan qulfli kichik shkaf.
         example_tr: Men maktab kitoblarimni shkafimda saqlayman,
-      14:
+      15:
         word: multicultural
         translation: koʻp millatli
         audio: 4579
@@ -5005,7 +5015,7 @@ units:
         meaning_tr: Agar biror narsa ko'p madaniyatli bo'lsa, u turli madaniyatlarga
           tegishli.
         example_tr: Ko'p madaniyatli bayramda barchani kutib olishdi.
-      15:
+      16:
         word: omission
         translation: tushirib qoldirish
         audio: 4580
@@ -5014,7 +5024,7 @@ units:
         type: n.
         meaning_tr: E'tiborsizlik - tashlab qo'yilgan yoki bajarilmagan narsadir.
         example_tr: Mayk marosim paytida uning ismi ko'rsatilmagani uchun xafa bo'ldi.
-      16:
+      17:
         word: oversee
         translation: nazorat qilib bormoq
         audio: 4581
@@ -5025,7 +5035,7 @@ units:
           hosil qilishni anglatadi.
         example_tr: Uning vazifasi qurilish loyihasining borishini nazorat qilish
           edi.
-      17:
+      18:
         word: pierce
         translation: teshmoq
         audio: 4582
@@ -5034,7 +5044,7 @@ units:
         type: v.
         meaning_tr: Biror narsani teshish, o'tkir narsa yordamida teshik qilish demakdir.
         example_tr: O'q nishonni o'rtasiga teshdi.
-      18:
+      19:
         word: replicate
         translation: takrorlamoq, xuddi shunday qilib
         audio: 4583
@@ -5044,7 +5054,7 @@ units:
         type: v.
         meaning_tr: Biror narsani takrorlash - bu avvalgi odamga o'xshash tarzda qilish.
         example_tr: Men otamning maktabdagi yutuqlarini takrorlashni istardim.
-      19:
+      20:
         word: wavy
         translation: jingalak, toʻlqinsimon
         audio: 4584
@@ -5054,18 +5064,6 @@ units:
         meaning_tr: Agar biror narsa to'lqinli bo'lsa, u tekis emas, balki bir qator
           egri chiziqlarga ega.
         example_tr: Bola qog'oz parchasi bo'ylab to'lqinli chiziqlar chizdi.
-      20:
-        word: abide
-        translation: boʻysunmoq, amal qilmoq
-        audio: 4585
-        meaning: To abide by something, like a rule, means to obey it.
-        example: If you want to play the game with us, you must be willing to abide
-          by our rules.
-        type: v.
-        meaning_tr: Biror narsaga rioya qilish, xuddi qoida kabi, unga bo'ysunishni
-          anglatadi.
-        example_tr: Agar siz biz bilan o'ynashni istasangiz, bizning qoidalarimizga
-          rioya qilishga tayyor bo'lishingiz kerak.
     photos:
       - 4294
       - 4296
@@ -5080,6 +5078,18 @@ units:
   24:
     words:
       1:
+        word: abide
+        translation: boʻysunmoq, amal qilmoq
+        audio: 4585
+        meaning: To abide by something, like a rule, means to obey it.
+        example: If you want to play the game with us, you must be willing to abide
+          by our rules.
+        type: v.
+        meaning_tr: Biror narsaga rioya qilish, xuddi qoida kabi, unga bo'ysunishni
+          anglatadi.
+        example_tr: Agar siz biz bilan o'ynashni istasangiz, bizning qoidalarimizga
+          rioya qilishga tayyor bo'lishingiz kerak.
+      2:
         word: conversion
         translation: oʻzgartirish
         audio: 4586
@@ -5092,7 +5102,7 @@ units:
           harakati.
         example_tr: Shahar avtoturargohni skeytbord parkiga aylantirish masalasini
           muhokama qildi.
-      2:
+      3:
         word: cram
         translation: tiqishtirmoq, zichlab tiqmoq
         audio: 4587
@@ -5103,7 +5113,7 @@ units:
         meaning_tr: Narsalarni siqish, ularni zo'rg'a sig'dira oladigan joyga qo'yish
           demakdir.
         example_tr: U barcha ko'ylaklarini shkafning yuqori tortmasiga tiqdi.
-      3:
+      4:
         word: defer
         translation: kechiktirmoq, keyinga qoldirmoq
         audio: 4588
@@ -5114,7 +5124,7 @@ units:
           anglatadi.
         example_tr: Qiz juda uyqusirab edi, shuning uchun u ertalabgacha hammomni
           kechiktirishni tanladi.
-      4:
+      5:
         word: export
         translation: eksport qilmoq, sotmoq
         audio: 4589
@@ -5124,7 +5134,7 @@ units:
         meaning_tr: Mahsulotlarni eksport qilish, ularni boshqa mamlakatlarga sotish
           demakdir.
         example_tr: Qo'shma Shtatlar ko'plab don va donlarni eksport qiladi.
-      5:
+      6:
         word: fume
         translation: achchiq/ qora tutun
         audio: 4590
@@ -5134,7 +5144,7 @@ units:
         meaning_tr: Tutunlar - bu yong'in yoki kimyoviy moddalar natijasida hosil
           bo'lgan nosog'lom tutun va gazlar.
         example_tr: Dvigatel havoga yoqimsiz, qora tutun chiqaradi.
-      6:
+      7:
         word: habitual
         translation: odatiy, doimiy
         audio: 4591
@@ -5147,7 +5157,7 @@ units:
           ega bo'lgan xatti-harakatidir.
         example_tr: Bu odam odatdagi yolg'onchi bo'lib, politsiya bilan halol bo'lishga
           qodir emas edi.
-      7:
+      8:
         word: justify
         translation: tasdiqlamoq, isbotlamoq
         audio: 4592
@@ -5159,7 +5169,7 @@ units:
           demakdir.
         example_tr: Hukumat mamlakatni urushga olib kirish haqidagi qarorini oqlashga
           harakat qildi.
-      8:
+      9:
         word: output
         translation: ishlab chiqarish hajmi
         audio: 4593
@@ -5170,7 +5180,7 @@ units:
           miqdori.
         example_tr: Boss zavodning mahsulot ishlab chiqarishini oshirish uchun ko'proq
           ishchilarni yolladi.
-      9:
+      10:
         word: overpopulation
         translation: aholining, koʻpayib borishi
         audio: 4594
@@ -5180,7 +5190,7 @@ units:
         meaning_tr: Aholining haddan tashqari ko'payishi - bu hududda juda ko'p odamlarning
           mavjudligi holati.
         example_tr: Tashkilot dunyo aholisining haddan tashqari ko'payishi bilan shug'ullanadi.
-      10:
+      11:
         word: patent
         translation: patent
         audio: 4595
@@ -5191,7 +5201,7 @@ units:
         meaning_tr: Patent - bu yangi mahsulotni ishlab chiqarish yoki sotish huquqiga
           ega bo'lgan yagona shaxs bo'lish huquqi.
         example_tr: U tezda o'zining ajoyib ixtirosi uchun patent yaratdi.
-      11:
+      12:
         word: penalize
         translation: jazolamoq
         audio: 4596
@@ -5200,7 +5210,7 @@ units:
         type: v
         meaning_tr: Biror kishini jazolash, uni jazolashni anglatadi.
         example_tr: Jamoa qoidalarni buzgani uchun jarimaga tortildi.
-      12:
+      13:
         word: petroleum
         translation: neft
         audio: 4597
@@ -5210,7 +5220,7 @@ units:
         type: n
         meaning_tr: Neft suyuq tabiiy resurs bo'lib, undan ko'plab yoqilg'ilar tayyorlanadi.
         example_tr: O'sha zavoddagi neft benzin ishlab chiqarish uchun ishlatiladi.
-      13:
+      14:
         word: prototype
         translation: prototip
         audio: 4598
@@ -5221,7 +5231,7 @@ units:
         meaning_tr: Prototip - bu katta miqdorda ishlab chiqarishga tayyor bo'lmagan
           yangi mashina.
         example_tr: U o'zining prototipini mototsikl kompaniyasiga taqdim etdi.
-      14:
+      15:
         word: scrap
         translation: parcha, boʻlak, qism
         audio: 4599
@@ -5231,7 +5241,7 @@ units:
         meaning_tr: Biror narsaning parchasi - bu uning kichik miqdori.
         example_tr: Kris g'oyalarni o'ylashda ko'plab qog'oz parchalaridan foydalanishni
           yaxshi ko'rardi.
-      15:
+      16:
         word: sector
         translation: sektor, xalq xoʻjaligi sohasi
         audio: 4600
@@ -5243,7 +5253,7 @@ units:
           bir qismi.
         example_tr: Biz ishlab chiqarish sektoridagi zavodlarning bir nechtasi haqida
           bilib oldik.
-      16:
+      17:
         word: subscribe
         translation: qoʻshilmoq, hamfikr boʻlmoq
         audio: 4601
@@ -5254,7 +5264,7 @@ units:
         meaning_tr: Biror narsaga obuna bo'lish - unga rozi bo'lish yoki rozi bo'lish.
         example_tr: U maktablarda musiqa ta'limini saqlab qolish kerak degan fikrga
           qo'shildi.
-      17:
+      18:
         word: subsist
         translation: kun kechirmoq
         audio: 4602
@@ -5265,7 +5275,7 @@ units:
         meaning_tr: Yashash yashash uchun zarur bo'lgan oziq-ovqat, suv va pulga ega
           bo'lishni anglatadi.
         example_tr: Ba'zi odamlar oyiga bir necha dollarga kun kechirishga majbur.
-      18:
+      19:
         word: suspend
         translation: bir muncha toʻxtatib turmoq
         audio: 4603
@@ -5278,7 +5288,7 @@ units:
           yoki to'xtatish demakdir.
         example_tr: Neft kompaniyasi zavod xavfsizligiga ishonch hosil qilmaguncha
           ishlab chiqarishni to'xtatdi.
-      19:
+      20:
         word: synthesis
         translation: birlik, majmua
         audio: 4604
@@ -5287,19 +5297,6 @@ units:
         type: n
         meaning_tr: Sintez - bu turli g'oyalar yoki uslublarning kombinatsiyasi.
         example_tr: Guruh musiqasi turli xil musiqiy janrlarning sintezi edi.
-      20:
-        word: acrobat
-        translation: akrobat
-        audio: 4605
-        meaning: An acrobat is a person who entertains people by doing amazing physical
-          things.
-        example: There were acrobats at the circus that did impressive and complicated
-          jumps.
-        type: n
-        meaning_tr: Akrobat - bu ajoyib jismoniy narsalarni qilish orqali odamlarni
-          xursand qiladigan odam.
-        example_tr: Sirkda ta'sirchan va murakkab sakrashlarni amalga oshiruvchi akrobatlar
-          bor edi.
     photos:
       - 4306
       - 4309
@@ -5314,6 +5311,19 @@ units:
   25:
     words:
       1:
+        word: acrobat
+        translation: akrobat
+        audio: 4605
+        meaning: An acrobat is a person who entertains people by doing amazing physical
+          things.
+        example: There were acrobats at the circus that did impressive and complicated
+          jumps.
+        type: n
+        meaning_tr: Akrobat - bu ajoyib jismoniy narsalarni qilish orqali odamlarni
+          xursand qiladigan odam.
+        example_tr: Sirkda ta'sirchan va murakkab sakrashlarni amalga oshiruvchi akrobatlar
+          bor edi.
+      2:
         word: advocacy
         translation: himoya, qoʻllab quvvatlash
         audio: 4606
@@ -5324,7 +5334,7 @@ units:
           harakati.
         example_tr: Janinening ushbu tadbirga kuchli targ'iboti odamlarni ishtirok
           etish istagini uyg'otdi.
-      2:
+      3:
         word: communal
         translation: jamoatchilik...
         audio: 4607
@@ -5335,7 +5345,7 @@ units:
         meaning_tr: Agar biror narsa umumiy bo'lsa, u bir guruh odamlarni o'z ichiga
           oladi.
         example_tr: Dam olish kunlari Teo va uning o'g'li kommunal bog'da axlat yig'ishdi.
-      3:
+      4:
         word: fluid
         translation: nafis
         audio: 4608
@@ -5346,7 +5356,7 @@ units:
         meaning_tr: Agar biror narsa suyuq bo'lsa, u silliq va nozik harakat qiladi.
         example_tr: Boris mashhur balet raqqosi edi, chunki odamlar uning suyuq harakatlariga
           qoyil qolishdi
-      4:
+      5:
         word: harmonize
         translation: mos tushmoq, uygʻunlashmoq
         audio: 4609
@@ -5358,7 +5368,7 @@ units:
           anglatadi.
         example_tr: Taomning shirin va nordon ta'mi yaxshi uyg'unlashdi va ajoyib
           ta'mga ega edi.
-      5:
+      6:
         word: industrious
         translation: harakatchan, mehnatkash
         audio: 4610
@@ -5368,7 +5378,7 @@ units:
         meaning_tr: Agar kimdir mehnatsevar bo'lsa, u qattiq ishlaydi.
         example_tr: Dennis juda mehnatkash edi, shuning uchun u hech qachon ish topishda
           muammoga duch kelmadi.
-      6:
+      7:
         word: inventive
         translation: ijodkor
         audio: 4611
@@ -5377,7 +5387,7 @@ units:
         type: adj
         meaning_tr: Agar kimdir ixtirochi bo'lsa, u yangi narsalarni yaratishda yaxshi.
         example_tr: Ixtirochi talaba unga uy ishlarida yordam berish uchun robot yasadi.
-      7:
+      8:
         word: judicial
         translation: sud...
         audio: 4612
@@ -5386,7 +5396,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa sud bo'lsa, u sudyalar yoki sudlar bilan bog'liq.
         example_tr: Qonunlar sud tizimining tuzilishini o'zgartirdi.
-      8:
+      9:
         word: Mandarin
         translation: Mandarin tili
         audio: 4613
@@ -5397,7 +5407,7 @@ units:
         meaning_tr: Mandarin ikki asosiy xitoy tillaridan biridir.
         example_tr: Jonning ota-onasi ikkalasi ham mandarin tilida gaplashsa ham,
           u faqat ingliz tilida gapira olardi,
-      9:
+      10:
         word: metropolitan
         translation: katta shaharga oid, katta shahar...
         audio: 4614
@@ -5406,7 +5416,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa metropoliten bo'lsa, u katta shaharga tegishli.
         example_tr: Nyu-Yorkdagi barcha poytaxt hayajonlari Rufusni asabiylashtirdi.
-      10:
+      11:
         word: mimic
         translation: taqlid qilmoq
         audio: 4615
@@ -5418,7 +5428,7 @@ units:
           anglatadi.
         example_tr: Ovchi o'rdakning chaqirig'iga taqlid qildi va orqaga chaqirgan
           ikkita o'rdakni otdi.
-      11:
+      12:
         word: misguided
         translation: notoʻgʻri, yanglish
         audio: 4616
@@ -5429,7 +5439,7 @@ units:
         meaning_tr: Agar biror narsa noto'g'ri bo'lsa, u noto'g'ri hukm yoki noto'g'ri
           e'tiqodga asoslanadi.
         example_tr: Ilon Mollini ushlashga urinayotganda tishlab oldi.
-      12:
+      13:
         word: rehearse
         translation: repititsiya qilmoq
         audio: 4617
@@ -5441,7 +5451,7 @@ units:
           ko'rish tushuniladi.
         example_tr: Vik guruhi birinchi namoyishidan oldin butun hafta davomida mashq
           qilishdi.
-      13:
+      14:
         word: scorn
         translation: nafratlanmoq, hurmat qilmaslik
         audio: 4618
@@ -5451,7 +5461,7 @@ units:
         meaning_tr: Biror kishini kamsitish, unga nisbatan hurmatsiz munosabatda bo'lishni
           anglatadi.
         example_tr: Jinoyatchi jamiyatda hamma tomonidan nafratlandi.
-      14:
+      15:
         word: sensory
         translation: his-tuygʻuga oid, hissiy
         audio: 4619
@@ -5462,7 +5472,7 @@ units:
         meaning_tr: Agar biror narsa hissiy bo'lsa, u hislar bilan bog'liq.
         example_tr: Iris va Erik teatrda filmlarni tomosha qilish hissiy hayajonni
           afzal ko'rishdi.
-      15:
+      16:
         word: staple
         translation: asosiy, standard
         audio: 4620
@@ -5472,7 +5482,7 @@ units:
         meaning_tr: Agar biror narsa asosiy bo'lsa, u standart yoki asosiy hisoblanadi.
         example_tr: Gamburgerlar, biftek va hotdoglar grilda pishirish uchun asosiy
           taomlardir.
-      16:
+      17:
         word: statute
         translation: qonun, statut
         audio: 4621
@@ -5481,7 +5491,7 @@ units:
         type: n
         meaning_tr: Nizom - bu rasmiy bo'lgan va yozib olingan qonun.
         example_tr: Yangi nizom parkda itlar bilan yurishni noqonuniy qildi.
-      17:
+      18:
         word: veteran
         translation: tajribali fahriy
         audio: 4622
@@ -5493,7 +5503,7 @@ units:
           kishi.
         example_tr: Xenk jamoa faxriysi edi va boshqalardan ko'ra ko'proq o'yinlarda
           o'ynagan.
-      18:
+      19:
         word: villain
         translation: jinoyatchi
         audio: 4623
@@ -5504,7 +5514,7 @@ units:
           odamdir.
         example_tr: Yovuz odam oilamning qimmatbaho buyumlarining yarmini olib qochib
           ketdi.
-      19:
+      20:
         word: vine
         translation: tok
         audio: 4624
@@ -5513,15 +5523,6 @@ units:
         type: n
         meaning_tr: Tok - uzun, burama poyaga ega va yuqoriga ko'tariladigan o'simlik.
         example_tr: Daraxtlarning shoxlari uzum bilan qoplangan.
-      20:
-        word: constrain
-        translation: tutib turmoq, imkoniyatini chegaralamoq
-        audio: 4625
-        meaning: To constrain something means to limit its development.
-        example: Jim cannot join us because he is constrained by previous plans.
-        type: v
-        meaning_tr: Biror narsani cheklash uning rivojlanishini cheklash demakdir.
-        example_tr: Jim bizga qo'shila olmaydi, chunki u avvalgi rejalari bilan cheklangan.
     photos:
       - 4319
       - 4322
@@ -5536,6 +5537,15 @@ units:
   26:
     words:
       1:
+        word: constrain
+        translation: tutib turmoq, imkoniyatini chegaralamoq
+        audio: 4625
+        meaning: To constrain something means to limit its development.
+        example: Jim cannot join us because he is constrained by previous plans.
+        type: v
+        meaning_tr: Biror narsani cheklash uning rivojlanishini cheklash demakdir.
+        example_tr: Jim bizga qo'shila olmaydi, chunki u avvalgi rejalari bilan cheklangan.
+      2:
         word: depot
         translation: stantsiya
         audio: 4626
@@ -5544,7 +5554,7 @@ units:
         type: n
         meaning_tr: Depo - bu avtobus yoki poezd stantsiyasi.
         example_tr: Depoga onasining kelishini kutdi.
-      2:
+      3:
         word: emulate
         translation: musobaqalashmoq
         audio: 4627
@@ -5556,7 +5566,7 @@ units:
           ular juda hayratda.
         example_tr: Kichkina bolaligida u doimo katta akasiga taqlid qilishga harakat
           qildi.
-      3:
+      4:
         word: forefinger
         translation: koʻrsatkich barmoq
         audio: 4628
@@ -5566,7 +5576,7 @@ units:
         meaning_tr: Ko'rsatkich barmog'i - bosh va o'rta barmoqlar orasidagi barmoq.
         example_tr: "U baqirdi: \"Mana bu!\" va ko'rsatkich barmog'i bilan ishora
           qildi."
-      4:
+      5:
         word: guts
         translation: ichki organlar
         audio: 4629
@@ -5576,7 +5586,7 @@ units:
         meaning_tr: Ichaklar odam yoki hayvon ichidagi barcha organlardir.
         example_tr: Shifokor sizga insonning ichaklarida sodir bo'ladigan har bir
           jarayonni aytib berishi mumkin.
-      5:
+      6:
         word: inherent
         translation: tabiiy, tugʻma
         audio: 4630
@@ -5585,7 +5595,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa tabiatan bo'lsa, u boshqa narsaning tabiiy qismidir.
         example_tr: Jismoniy mashqlar paytida terlash tananing o'ziga xos funktsiyasidir.
-      6:
+      7:
         word: intimidate
         translation: qoʻrqitmoq
         audio: 4631
@@ -5594,7 +5604,7 @@ units:
         type: v
         meaning_tr: Qo'rqitish, boshqalarni qo'rqitish demakdir.
         example_tr: Dadam do'stlarimga tashrif buyurishganda ularni qo'rqitadi.
-      7:
+      8:
         word: janitor
         translation: bino nazoratchisi
         audio: 4632
@@ -5604,7 +5614,7 @@ units:
         meaning_tr: Farrosh - binoni ta'mirlash va parvarish qilish bilan shug'ullanadigan
           shaxs.
         example_tr: Maktab farroshi tartibsiz choyxonani yig‘ishtirib qo‘ydi.
-      8:
+      9:
         word: moist
         translation: nam
         audio: 4633
@@ -5613,7 +5623,7 @@ units:
         type: adj
         meaning_tr: Biror narsa nam bo'lsa, u bir oz nam bo'ladi.
         example_tr: Kecha yomg‘irdan yer hali ham nam.
-      9:
+      10:
         word: nope
         translation: '"yoʻq"'
         audio: 4634
@@ -5623,7 +5633,7 @@ units:
         meaning_tr: Yo'q - bu "yo'q" deyishning norasmiy usuli.
         example_tr: U menda pul bor-yo'qligini so'radi va men "Yo'q" deyishga majbur
           bo'ldim.
-      10:
+      11:
         word: prod
         translation: itarmoq, niqtamoq
         audio: 4635
@@ -5634,7 +5644,7 @@ units:
         meaning_tr: Prod - barmog'i yoki uchi uchli narsa bilan kimnidir yoki biror
           narsani surish demakdir.
         example_tr: Bezori barmog‘i bilan ko‘ksimga turtib qo‘ydi.
-      11:
+      12:
         word: ransom
         translation: itarmoq, niqtamoq
         audio: 4636
@@ -5646,7 +5656,7 @@ units:
           summasidir.
         example_tr: U shahzodani o'g'irlab ketgan va to'lov sifatida 1 million dollar
           talab qilgan.
-      12:
+      13:
         word: restrain
         translation: toʻxtatib qolmoq, ushlab qolmoq
         audio: 4637
@@ -5657,7 +5667,7 @@ units:
         meaning_tr: Biror kishini yoki biror narsani ushlab turish, uni to'xtatish
           uchun jismoniy kuch ishlatishni anglatadi.
         example_tr: Mayk Allenni eshikka yetib borishini to'xtatdi.
-      13:
+      14:
         word: saliva
         translation: soʻlak
         audio: 4638
@@ -5667,7 +5677,7 @@ units:
         meaning_tr: Tuprik odamlarning og'zidagi suvli suyuqlik bo'lib, ovqat hazm
           qilishga yordam beradi.
         example_tr: Chaqaloq og'zidan tupurik oqib chiqmasligini uddalay olmadi.
-      14:
+      15:
         word: spit
         translation: tupurib tashlamoq
         audio: 4639
@@ -5676,7 +5686,7 @@ units:
         type: v
         meaning_tr: Tupurish og'zidan suyuqlik chiqarishni anglatadi.
         example_tr: U hovuzdan chiqdi va og'zidan suv tupurdi.
-      15:
+      16:
         word: sprint
         translation: yaqin masofaga yugurmoq
         audio: 4640
@@ -5687,7 +5697,7 @@ units:
         meaning_tr: Sprint qisqa masofaga juda tez yugurishni anglatadi.
         example_tr: Bolalar darsga kechikishni xohlamadilar, shuning uchun ular avtobus
           bekatiga yugurishdi.
-      16:
+      17:
         word: stunt
         translation: tryuk, nomer
         audio: 4641
@@ -5697,7 +5707,7 @@ units:
         meaning_tr: Kaskadyor - bu e'tiborni jalb qilish yoki reklama qilish uchun
           qilingan narsa.
         example_tr: Erkak reklama maqsadida mashinalar ustidan sakrab o‘tgan.
-      17:
+      18:
         word: tolerant
         translation: chidamli, bardoshli
         audio: 4642
@@ -5709,7 +5719,7 @@ units:
         meaning_tr: Odamlar bag'rikeng bo'lsa, ular boshqalarni qabul qilgani uchun
           ma'qullanadi.
         example_tr: Tolerant rahbar irqidan qat’iy nazar hamma teng deb hisoblardi.
-      18:
+      19:
         word: vampire
         translation: vampir, qonxoʻr
         audio: 4643
@@ -5720,7 +5730,7 @@ units:
         meaning_tr: Vampir - bu tobutda uxlab yotgan va odamlarning qonini so'radigan
           xayoliy yirtqich hayvon.
         example_tr: Vampir ayolga yashirinib kelib, uning bo'ynidan tishlab oldi.
-      19:
+      20:
         word: yawn
         translation: esnamoq
         audio: 4644
@@ -5729,17 +5739,6 @@ units:
         type: v
         meaning_tr: Esnash og'zini keng ochib, havodan nafas olishni anglatadi.
         example_tr: Bola esnadi va kechasi uchun yotishdan oldin qo'llarini cho'zdi.
-      20:
-        word: analogy
-        translation: anologiya, oʻxshashlik
-        audio: 4645
-        meaning: An analogy is a connection made between things to show that they
-          are similar.
-        example: The doctor made an analogy between the human heart and a water pump.
-        type: n
-        meaning_tr: Oʻxshatish - bu narsalarning oʻxshashligini koʻrsatish uchun oʻzaro
-          bogʻlanish.
-        example_tr: Doktor inson yuragi va suv nasosi o'rtasida o'xshashlik yaratdi.
     photos:
       - 4332
       - 4334
@@ -5754,6 +5753,17 @@ units:
   27:
     words:
       1:
+        word: analogy
+        translation: anologiya, oʻxshashlik
+        audio: 4645
+        meaning: An analogy is a connection made between things to show that they
+          are similar.
+        example: The doctor made an analogy between the human heart and a water pump.
+        type: n
+        meaning_tr: Oʻxshatish - bu narsalarning oʻxshashligini koʻrsatish uchun oʻzaro
+          bogʻlanish.
+        example_tr: Doktor inson yuragi va suv nasosi o'rtasida o'xshashlik yaratdi.
+      2:
         word: ancestry
         translation: nasl-nasab
         audio: 4646
@@ -5764,7 +5774,7 @@ units:
           qatori.
         example_tr: Biz nasl-nasabimizni o‘rganib, shohlarga qarindosh ekanimizni
           bilib oldik.
-      2:
+      3:
         word: archer
         translation: kamonboz
         audio: 4647
@@ -5773,7 +5783,7 @@ units:
         type: n
         meaning_tr: Kamonchi - kamon va o'qlarni ishlatadigan odam.
         example_tr: Mutaxassis kamonchi har safar nishonga tegdi.
-      3:
+      4:
         word: conspiracy
         translation: fitna, til biriktirish
         audio: 4648
@@ -5786,7 +5796,7 @@ units:
           uchun tuzilgan yashirin rejadir.
         example_tr: Ba'zi odamlar Amerika prezidenti Jon Kennedini o'ldirish uchun
           fitna bo'lgan deb o'ylashadi.
-      4:
+      5:
         word: deputy
         translation: oʻrinbosar, muovin
         audio: 4649
@@ -5797,7 +5807,7 @@ units:
           shaxsdir.
         example_tr: Sherif kasal bo'lganida, o'rinbosar uning vazifalarini o'z zimmasiga
           oldi.
-      5:
+      6:
         word: earl
         translation: graf
         audio: 4650
@@ -5806,7 +5816,7 @@ units:
         type: n
         meaning_tr: Earl - Britaniyalik zodagon.
         example_tr: Kenterberi grafi ulkan qasrda yashagan.
-      6:
+      7:
         word: fragrant
         translation: xushboʻy, muattar
         audio: 4651
@@ -5815,7 +5825,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa xushbo'y bo'lsa, u yoqimli hidga ega.
         example_tr: Qiz mazali rezavorlar va xushbo'y gullarni terdi.
-      7:
+      8:
         word: funnel
         translation: voronka
         audio: 4652
@@ -5826,7 +5836,7 @@ units:
         meaning_tr: Voronka - suyuqliklarni quyish uchun tepasi keng va pastki qismi
           tor bo'lgan ob'ekt.
         example_tr: Ishchi moyni dvigatelga quyayotganda huni ishlatgan.
-      8:
+      9:
         word: hereditary
         translation: irsiy, nasliy
         audio: 4653
@@ -5837,7 +5847,7 @@ units:
         meaning_tr: Agar biror narsa irsiy bo'lsa, bu ota-onadan bolalarga o'tadigan
           xususiyatdir.
         example_tr: Irsiy kasallik bolalarning uch avlodiga ta'sir ko'rsatdi.
-      9:
+      10:
         word: hymn
         translation: madhiya
         audio: 4654
@@ -5846,7 +5856,7 @@ units:
         type: n
         meaning_tr: Madhiya ko'pincha xudoni ulug'laydigan diniy qo'shiqdir.
         example_tr: Kitob namozxonlar kuylagan madhiyalar bilan to'ldirildi.
-      10:
+      11:
         word: invert
         translation: toʻntarmoq, agʻdarib qoʻymoq
         audio: 4655
@@ -5855,7 +5865,7 @@ units:
         type: v
         meaning_tr: Biror narsani teskari aylantirish, uni teskari aylantirish demakdir.
         example_tr: U g'ildiraklarini ta'mirlash uchun velosipedni teskari aylantirdi.
-      11:
+      12:
         word: prey
         translation: oʻlja
         audio: 4656
@@ -5865,7 +5875,7 @@ units:
         meaning_tr: O'lja - bu boshqa jonzot tomonidan ovlanadigan va yeyiladigan
           hayvonlar.
         example_tr: Arslon o‘ljasini qo‘lga olish uchun bor kuchi bilan yugurdi.
-      12:
+      13:
         word: procession
         translation: odamlar galasi
         audio: 4657
@@ -5876,7 +5886,7 @@ units:
         meaning_tr: Kortej - ommaviy tadbir paytida bir qatorda yuradigan yoki mashinada
           yuradigan odamlar guruhi.
         example_tr: Marosim oxiriga yetganda hamma bayramni nishonladi.
-      13:
+      14:
         word: prophet
         translation: paygʻambar
         audio: 4658
@@ -5887,7 +5897,7 @@ units:
         meaning_tr: Payg'ambar - bu xudoning xabarini odamlarga etkazish uchun xudo
           tomonidan tanlangan shaxs.
         example_tr: Garold o'z xudosining payg'ambarlaridan biri ekanligiga ishongan.
-      14:
+      15:
         word: sarcastic
         translation: istehzoli, yurakka botadigan
         audio: 4659
@@ -5898,7 +5908,7 @@ units:
         meaning_tr: Agar biror narsa istehzoli bo'lsa, u aslida nazarda tutilgan narsaning
           aksi bo'ladi.
         example_tr: U doimiy istehzoli gaplari bilan onasining ko'nglini og'ritdi.
-      15:
+      16:
         word: seasoning
         translation: ziravor
         audio: 4660
@@ -5909,7 +5919,7 @@ units:
         meaning_tr: Ziravorlar - bu taomning ta'mini yaxshilaydigan tuz, o'tlar va
           ziravorlar aralashmasi.
         example_tr: Bu bifshteksning ta'mi yumshoq. Ehtimol, men unga ziravorlar qo'shaman.
-      16:
+      17:
         word: sodium
         translation: natriy
         audio: 4661
@@ -5920,7 +5930,7 @@ units:
         meaning_tr: Natriy - tuz kabi moddalarni olish uchun ishlatilishi mumkin bo'lgan
           element.
         example_tr: Natriy va xlorid birlashib, osh tuzini hosil qiladi.
-      17:
+      18:
         word: tyranny
         translation: zulm, mustabidlik
         audio: 4662
@@ -5931,7 +5941,7 @@ units:
         meaning_tr: Zulm - bu bir kishi hokimiyatga ega bo'lgan shafqatsiz va adolatsiz
           hukumat.
         example_tr: Uning zulmi ostida yashash mumkin emas edi.
-      18:
+      19:
         word: tyrant
         translation: zolim boshliq
         audio: 4663
@@ -5943,7 +5953,7 @@ units:
           bo'lgan odam.
         example_tr: Bizning xo'jayinimiz zolim. U bizni oz maosh evaziga uzoq soat
           ishlashga majbur qiladi.
-      19:
+      20:
         word: vinegar
         translation: sirka
         audio: 4664
@@ -5953,18 +5963,6 @@ units:
         meaning_tr: Sirka - pishirishda ishlatiladigan nordon sharobdan tayyorlangan
           kuchli suyuqlik.
         example_tr: Ehtiyot bo'ling, chunki juda ko'p sirka retseptni buzadi.
-      20:
-        word: adjoining
-        translation: qoʻshni, yon
-        audio: 4665
-        meaning: If something is adjoining, it is next to or joined with a building,
-          or room.
-        example: I couldn’t sleep because the people in the adjoining room were loud.
-        type: adj
-        meaning_tr: Agar biror narsa ulashgan bo'lsa, u bino yoki xonaning yonida
-          yoki u bilan birlashtirilgan.
-        example_tr: Men uxlay olmadim, chunki qo'shni xonadagi odamlar baland ovozda
-          edi.
     photos:
       - 4346
       - 4349
@@ -5979,6 +5977,18 @@ units:
   28:
     words:
       1:
+        word: adjoining
+        translation: qoʻshni, yon
+        audio: 4665
+        meaning: If something is adjoining, it is next to or joined with a building,
+          or room.
+        example: I couldn’t sleep because the people in the adjoining room were loud.
+        type: adj
+        meaning_tr: Agar biror narsa ulashgan bo'lsa, u bino yoki xonaning yonida
+          yoki u bilan birlashtirilgan.
+        example_tr: Men uxlay olmadim, chunki qo'shni xonadagi odamlar baland ovozda
+          edi.
+      2:
         word: allege
         translation: asossiz tasdiqlamoq
         audio: 4666
@@ -5990,7 +6000,7 @@ units:
           aytish.
         example_tr: Kichkina qiz akasi sevimli qo'g'irchog'ini yashirganini da'vo
           qilgan.
-      2:
+      3:
         word: arch
         translation: arka
         audio: 4667
@@ -6003,7 +6013,7 @@ units:
           kavisli teshik.
         example_tr: Ko‘prik arki baland qayiqning ostidan o‘tishi uchun unchalik baland
           emas edi.
-      3:
+      4:
         word: assemble
         translation: toʻplanmoq, yigʻilmoq
         audio: 4668
@@ -6014,7 +6024,7 @@ units:
         meaning_tr: Yig‘ilish, bir joyda yig‘ilish demakdir.
         example_tr: Ota-onalar farzandlarining ta'limini yaxshilash yo'llarini muhokama
           qilish uchun yig'ilishdi.
-      4:
+      5:
         word: casualty
         translation: jabrdiyda
         audio: 4669
@@ -6024,7 +6034,7 @@ units:
         meaning_tr: Qurbon - urush yoki baxtsiz hodisada halok bo'lgan yoki yaralangan
           shaxs.
         example_tr: Avtohalokatda jabrlangan yagona ayol qo‘lini sindirib olgan.
-      5:
+      6:
         word: erect
         translation: qurmoq
         audio: 4670
@@ -6034,7 +6044,7 @@ units:
         meaning_tr: Biror narsani qurish, uni qurish demakdir.
         example_tr: Podshoh o‘z qasrining shimoliy va janubiy tomoniga ikkita minora
           qurdirdi.
-      6:
+      7:
         word: foul
         translation: badboʻy, qoʻlansa
         audio: 4671
@@ -6044,7 +6054,7 @@ units:
         type: adj
         meaning_tr: Agar biror narsa yomon bo'lsa, u yoqimli yoki yoqimli emas.
         example_tr: Itiga suv ichishga ruxsat bermadi, chunki uning hidi yomon edi.
-      7:
+      8:
         word: hectare
         translation: gektor
         audio: 4672
@@ -6053,7 +6063,7 @@ units:
         type: n
         meaning_tr: Gektar - 10 000 kvadrat metrga teng o'lchov birligi.
         example_tr: Uning oilaviy xo‘jaligi ko‘p gektar maydonni egallagan.
-      8:
+      9:
         word: heighten
         translation: kuchaytirmoq
         audio: 4673
@@ -6062,7 +6072,7 @@ units:
         type: v
         meaning_tr: Tuyg'uni kuchaytirish, uning intensivligini oshirishni anglatadi.
         example_tr: Yoqimli musiqa ularning ajoyib kechki ovqatdan zavqini oshirdi.
-      9:
+      10:
         word: hospitality
         translation: mehmondoʻstlik
         audio: 4674
@@ -6075,7 +6085,7 @@ units:
           va o'yin-kulgi.
         example_tr: Sayohatchilar mehmonxona xodimlarining mehmondo'stligidan hayratda
           qolishdi.
-      10:
+      11:
         word: mansion
         translation: koshona, qasr
         audio: 4675
@@ -6084,7 +6094,7 @@ units:
         type: n
         meaning_tr: Saroy katta va qimmat uydir.
         example_tr: Saroyda o'ttizta yotoq xonasi, ikkita oshxona va basseyn bor edi.
-      11:
+      12:
         word: outnumber
         translation: miqdoran koʻp boʻlmoq
         audio: 4676
@@ -6093,7 +6103,7 @@ units:
         type: v
         meaning_tr: Guruhdan oshib ketish, undan ko'p songa ega bo'lishni anglatadi.
         example_tr: Qizlar maktabdagi o'g'il bolalardan to'rt baravar ko'p edi.
-      12:
+      13:
         word: overjoyed
         translation: juda baxtli, masrur
         audio: 4677
@@ -6103,7 +6113,7 @@ units:
         meaning_tr: Agar kimdir juda xursand bo'lsa, u juda baxtlidir.
         example_tr: Uning lavozimga ko‘tarilishi haqidagi xabardan u juda xursand
           bo‘ldi.
-      13:
+      14:
         word: pasture
         translation: yaylov, oʻtloq
         audio: 4678
@@ -6114,7 +6124,7 @@ units:
         meaning_tr: Yaylov - hayvonlarning ozuqa sifatida foydalanishi uchun o't bilan
           qoplangan yer maydoni.
         example_tr: Qo‘ylarni o‘t ko‘proq yaylovga olib ketishdi.
-      14:
+      15:
         word: petition
         translation: petitsiya, ariza
         audio: 4679
@@ -6125,7 +6135,7 @@ units:
         meaning_tr: Ariza - bu hokimiyatdan biror narsa qilishni so'rab yozma ariza.
         example_tr: Fuqarolarning barchasi shahar hokimidan yo‘laklarni ta’mirlashni
           so‘rab arizaga imzo chekishdi.
-      15:
+      16:
         word: renovate
         translation: tamirlamoq, oʻzgartirmoq
         audio: 4680
@@ -6136,7 +6146,7 @@ units:
         meaning_tr: Binoni ta'mirlash, uni ta'mirlash yoki uning ustiga yangi inshootlar
           qurish demakdir.
         example_tr: Eski o‘t o‘chirish stantsiyasi ko‘p qavatli uyga aylantirildi.
-      16:
+      17:
         word: revise
         translation: tekshirib tuzatmoq
         audio: 4681
@@ -6148,7 +6158,7 @@ units:
           yoki yangilashni anglatadi.
         example_tr: Muharrir ba'zi faktlar noto'g'ri ekanligini bilib, kitobni qayta
           ko'rib chiqdi.
-      17:
+      18:
         word: slab
         translation: plitka, plita
         audio: 4682
@@ -6159,7 +6169,7 @@ units:
         meaning_tr: Plita - tosh, beton, metall yoki yog'ochdan yasalgan katta, qalin,
           tekis bo'lak.
         example_tr: Uyimni bezash uchun turli tosh plitalarga qaradim.
-      18:
+      19:
         word: terrace
         translation: ayvon, peshayvon
         audio: 4683
@@ -6170,7 +6180,7 @@ units:
         meaning_tr: Teras - bu uy yoki kvartira bilan bog'langan ochiq maydon.
         example_tr: Peshindan keyin u terastada o'tirishni va elektron pochtasini
           tekshirishni yaxshi ko'rardi.
-      19:
+      20:
         word: turf
         translation: chimzor
         audio: 4684
@@ -6179,19 +6189,6 @@ units:
         type: n
         meaning_tr: Maysa - bu o't va u o'sadigan axloqsizlikning bir qismi.
         example_tr: O'yindan so'ng chim yirtiq ko'rindi.
-      20:
-        word: analogous
-        translation: oʻxshash, anolog
-        audio: 4685
-        meaning: If something is analogous to another thing, then it is like it in
-          certain ways.
-        example: The relationship with his teacher was analogous to that of a son
-          and mother.
-        type: adj
-        meaning_tr: Agar biror narsa boshqa narsaga o'xshash bo'lsa, u ma'lum jihatdan
-          unga o'xshaydi.
-        example_tr: Uning ustozi bilan munosabatlari o'g'il va onaning munosabatiga
-          o'xshardi.
     photos:
       - 4359
       - 4361
@@ -6206,6 +6203,19 @@ units:
   29:
     words:
       1:
+        word: analogous
+        translation: oʻxshash, anolog
+        audio: 4685
+        meaning: If something is analogous to another thing, then it is like it in
+          certain ways.
+        example: The relationship with his teacher was analogous to that of a son
+          and mother.
+        type: adj
+        meaning_tr: Agar biror narsa boshqa narsaga o'xshash bo'lsa, u ma'lum jihatdan
+          unga o'xshaydi.
+        example_tr: Uning ustozi bilan munosabatlari o'g'il va onaning munosabatiga
+          o'xshardi.
+      2:
         word: binoculars
         translation: durbin
         audio: 4686
@@ -6214,7 +6224,7 @@ units:
         type: n
         meaning_tr: Dürbün uzoqdagi narsalarni ko'rish uchun ishlatiladigan qurilma.
         example_tr: U ufqda turgan kemani faqat durbin yordamida ko‘ra olardi.
-      2:
+      3:
         word: bulk
         translation: katta gavda
         audio: 4687
@@ -6224,7 +6234,7 @@ units:
         meaning_tr: Biror narsaning asosiy qismi uning katta hajmidir.
         example_tr: Katta fil daraxt tanasi kabi kuchli oyoqlari bilan asosiy qismini
           harakatga keltirdi.
-      3:
+      4:
         word: comprise
         translation: tashkil qilmoq, iborat boʻlmoq
         audio: 4688
@@ -6235,7 +6245,7 @@ units:
         meaning_tr: Agar biror narsa boshqa narsani o'z ichiga olsa, u undan iborat
           yoki undan iborat.
         example_tr: Maktabimiz futbol jamoasi asosan katta yoshdagilardan iborat.
-      4:
+      5:
         word: depict
         translation: chizib koʻrsatmoq
         audio: 4689
@@ -6245,7 +6255,7 @@ units:
         meaning_tr: Biror narsani tasvirlash, ko'pincha san'atdan foydalanib, uni
           ko'rsatish yoki tasvirlashni anglatadi.
         example_tr: Haykalning yuzida generalning qat'iyati va jasorati tasvirlangan.
-      5:
+      6:
         word: dual
         translation: ikkita, qoʻsh
         audio: 4690
@@ -6256,7 +6266,7 @@ units:
         meaning_tr: Agar biror narsa ikki tomonlama bo'lsa, u ikki qismdan iborat.
         example_tr: Xona ikki tomonlama funktsiyaga ega edi. Bu yashash xonasi edi,
           lekin kechalari yotoqxona edi.
-      6:
+      7:
         word: Fahrenheit
         translation: Farangeyt shkalasi (boʻyicha)
         audio: 4691
@@ -6266,7 +6276,7 @@ units:
         type: a
         meaning_tr: Farengeyt harorati - suv 32 ° da muzlab, 212 ° qaynaydigan shkala.
         example_tr: Harorat Farangeyt 32 ° ga tushganda, qor yog'a boshladi.
-      7:
+      8:
         word: fulfill
         translation: bajarmoq, ado etmoq
         audio: 4692
@@ -6275,7 +6285,7 @@ units:
         type: v
         meaning_tr: Biror narsani bajarish, unga erishish yoki tugatish demakdir.
         example_tr: Professor bitta darsni qoldirmaslik haqidagi va'dasini bajarmadi.
-      8:
+      9:
         word: grove
         translation: oʻrmoncha
         audio: 4693
@@ -6284,7 +6294,7 @@ units:
         type: n
         meaning_tr: Toʻqay — bu daraxtlarning kichik guruhi.
         example_tr: Bu bog‘dagi barcha daraxtlar olma daraxtlari.
-      9:
+      10:
         word: ore
         translation: ruda
         audio: 4694
@@ -6296,7 +6306,7 @@ units:
           shakli.
         example_tr: Zavod rudani eritib, undan temir buyumlar ishlab chiqarish uchun
           foydalanardi.
-      10:
+      11:
         word: outback
         translation: noobod rayon
         audio: 4695
@@ -6308,7 +6318,7 @@ units:
           kam odam yashaydi.
         example_tr: Ko'pgina avstraliyalik fermerlar chorva mollarini boqish uchun
           chetdan foydalanadilar.
-      11:
+      12:
         word: outweigh
         translation: oshib tushmoq
         audio: 4696
@@ -6320,7 +6330,7 @@ units:
           bo'yicha oshib ketishni anglatadi.
         example_tr: Uxlash uchun issiq joy topish, ovqatlanish uchun biror narsa topish
           zaruratidan ustun keldi.
-      12:
+      13:
         word: paradox
         translation: mantiqsizlik, paradoks
         audio: 4697
@@ -6332,7 +6342,7 @@ units:
           voqea.
         example_tr: Uning ishining paradoksi shundaki, u qanchalik kam ishlasa, shunchalik
           ko'p ish qilgan.
-      13:
+      14:
         word: pier
         translation: damba, pirs
         audio: 4698
@@ -6341,7 +6351,7 @@ units:
         type: n
         meaning_tr: Pirs - bu suv havzasiga cho'zilgan inshoot.
         example_tr: Agar siz kattaroq baliq tutmoqchi bo'lsangiz, iskala chetiga boring.
-      14:
+      15:
         word: shortcut
         translation: qisqa yoʻl
         audio: 4699
@@ -6352,7 +6362,7 @@ units:
         meaning_tr: Yorliq asosiy marshrutdan qisqaroq marshrutdir.
         example_tr: Biz uyga birinchi bo'lib keldik, chunki biz o'rmon bo'ylab yorliq
           oldik.
-      15:
+      16:
         word: tariff
         translation: boj, toʻlov
         audio: 4700
@@ -6362,7 +6372,7 @@ units:
         meaning_tr: Tarif - muayyan import yoki eksport uchun to'lanadigan soliq yoki
           yig'im.
         example_tr: Import qilingan junga tarifimiz xorijiy junni qimmatroq qiladi.
-      16:
+      17:
         word: thermometer
         translation: termometr
         audio: 4701
@@ -6372,7 +6382,7 @@ units:
         type: n
         meaning_tr: Termometr - bu haroratni o'lchaydigan qurilma.
         example_tr: Deraza tashqarisidagi termometr bugun issiq kun ekanligini ko‘rsatdi.
-      17:
+      18:
         word: tilt
         translation: qiyshaytirmoq
         audio: 4702
@@ -6381,7 +6391,7 @@ units:
         type: v
         meaning_tr: Biror narsani egish, uni eğimli holatga keltirishni anglatadi.
         example_tr: U qadahni egib, ichkaridagi sharobni to‘kib yuborishiga sal qoldi.
-      18:
+      19:
         word: vice versa
         translation: yoki aksincha
         audio: 4703
@@ -6392,7 +6402,7 @@ units:
         meaning_tr: Agar bayonot aksincha bo'lsa, unda uning ikkita asosiy g'oyasi
           bir-biri bilan almashtiriladi.
         example_tr: Talabalar o'z o'qituvchilaridan o'rganadilar va aksincha.
-      19:
+      20:
         word: whereabouts
         translation: joylashgan/ turgan joy
         audio: 4704
@@ -6404,15 +6414,6 @@ units:
           joy.
         example_tr: Politsiya yo'qolgan itni qidirdi, ammo uning qayerda ekanligi
           hali ham noma'lum.
-      20:
-        word: amber
-        translation: qahrabo
-        audio: 4705
-        meaning: Amber is a hard, yellowish material that comes from trees.
-        example: The necklace was made from pieces of amber.
-        type: n
-        meaning_tr: Amber - bu daraxtlardan keladigan qattiq, sarg'ish material.
-        example_tr: Marjon kehribar parchalaridan yasalgan.
     photos:
       - 4371
       - 4374
@@ -6427,6 +6428,15 @@ units:
   30:
     words:
       1:
+        word: amber
+        translation: qahrabo
+        audio: 4705
+        meaning: Amber is a hard, yellowish material that comes from trees.
+        example: The necklace was made from pieces of amber.
+        type: n
+        meaning_tr: Amber - bu daraxtlardan keladigan qattiq, sarg'ish material.
+        example_tr: Marjon kehribar parchalaridan yasalgan.
+      2:
         word: charcoal
         translation: pista koʻmir
         audio: 4706
@@ -6435,7 +6445,7 @@ units:
         type: n
         meaning_tr: Ko'mir - olov uchun yoqilg'i sifatida ishlatiladigan qora material.
         example_tr: Qadimgi olovdan yerda kuygan ko‘mir qolgan edi.
-      2:
+      3:
         word: columnist
         translation: sharhlovchi, maqola yozuvchi
         audio: 4707
@@ -6446,7 +6456,7 @@ units:
           yozuvchi.
         example_tr: Kolumnist fermadagi hayot haqidagi maqolalari uchun maqtovga sazovor
           bo'ldi.
-      3:
+      4:
         word: courteous
         translation: boradab, xushmuomalali
         audio: 4708
@@ -6455,7 +6465,7 @@ units:
         type: adj
         meaning_tr: Biror kishi xushmuomala bo'lsa, u muloyim va hurmatli bo'ladi.
         example_tr: Ona oilasidan mehmonlarga xushmuomala bo'lishni so'radi.
-      4:
+      5:
         word: credentials
         translation: ishonch yorligʻi
         audio: 4709
@@ -6466,7 +6476,7 @@ units:
         meaning_tr: Hisob ma'lumotlari kimningdir tajribasi yoki biror narsa qilish
           qobiliyatining isbotidir.
         example_tr: Mexanik ishonchnomalarini ishxonasi devoriga osib qo‘ydi.
-      5:
+      6:
         word: crickets
         translation: qora chigirtka
         audio: 4710
@@ -6476,7 +6486,7 @@ units:
         meaning_tr: Kriket - bu odatda tunda baland tovushlarni chiqaradigan hasharotlar.
         example_tr: Mamlakatda biz kechalari yulduzlarni ko'rishimiz va kriketlarni
           eshitishimiz mumkin edi.
-      6:
+      7:
         word: delta
         translation: delta
         audio: 4711
@@ -6489,7 +6499,7 @@ units:
           tekis hudud.
         example_tr: Arxeologlar Nil daryosining deltasidan ko'plab qadimiy materiallarni
           topdilar.
-      7:
+      8:
         word: detergent
         translation: kir yuvish kukuni
         audio: 4712
@@ -6501,7 +6511,7 @@ units:
           sovun.
         example_tr: Akam yuvish uchun juda ko'p detarjan qo'shib qo'ydi va pufakchalar
           hamma joyda paydo bo'ldi.
-      8:
+      9:
         word: euphemism
         translation: evfemizm
         audio: 4713
@@ -6513,7 +6523,7 @@ units:
           atama.
         example_tr: "\"Derazalarga texnik xizmat ko'rsatuvchi ofitser\" - bu deraza
           yuvish uchun evfemizm."
-      9:
+      10:
         word: expire
         translation: muddati tamom boʻlmoq
         audio: 4714
@@ -6525,7 +6535,7 @@ units:
           foydalanish tugadi.
         example_tr: Erkakning haydovchilik guvohnomasi ikki kundan keyin tugashi kerak
           edi.
-      10:
+      11:
         word: granite
         translation: granit
         audio: 4715
@@ -6535,7 +6545,7 @@ units:
         meaning_tr: Granit ko'pincha qora yoki pushti rangga ega bo'lgan juda qattiq
           jinsdir.
         example_tr: Oshxona peshtaxtasi granitdan qilingan.
-      11:
+      12:
         word: gravel
         translation: shagʻal
         audio: 4716
@@ -6544,7 +6554,7 @@ units:
         type: n
         meaning_tr: Shag'al - qum bilan aralashtirilgan kichik toshlarning kombinatsiyasi.
         example_tr: Belanchak majmuasi atrofidagi yer shag'al bilan qoplangan.
-      12:
+      13:
         word: haunt
         translation: hayolini tark etmaslik
         audio: 4717
@@ -6556,7 +6566,7 @@ units:
           keltirib chiqarishdir.
         example_tr: Uning qo'rqinchli tushi haqidagi fikrlari uni haftalar davomida
           ta'qib qildi.
-      13:
+      14:
         word: liberal
         translation: bagʻrikeng, murosasoz
         audio: 4718
@@ -6565,7 +6575,7 @@ units:
         type: adj
         meaning_tr: Kimdir liberal bo'lsa, u turli g'oyalar va odamlarni qabul qiladi.
         example_tr: Mening bobom va buvim ota-onam kabi erkin emaslar.
-      14:
+      15:
         word: maze
         translation: laberint
         audio: 4719
@@ -6576,7 +6586,7 @@ units:
         meaning_tr: Labirint - bu murakkab va adashib qolish oson bo'lgan yo'llar
           tizimi.
         example_tr: Biz bog‘dagi labirintda adashib qoldik.
-      15:
+      16:
         word: moss
         translation: mix, yoʻsin
         audio: 4720
@@ -6588,34 +6598,7 @@ units:
           kichik yashil yoki sariq o'simlik.
         example_tr: O'sha toshlarni qoplagan moxga sirpanib tushmaslik uchun ehtiyot
           bo'ling.
-      16:
-        word: peck
-        translation: choʻqilamoq, choʻqilab yemoq
-        audio: 4721
-        meaning: When a bird pecks, it bites or hits something with its beak.
-        example: The birds pecked at the seeds on the ground.
-        type: v
-        meaning_tr: Qush cho‘ksa, tumshug‘i bilan biror narsani tishlaydi yoki uradi.
-        example_tr: Qushlar yerdagi urug‘larni paypasladi.
       17:
-        word: reservoir
-        translation: suv ombori
-        audio: 4722
-        meaning: A reservoir is a place for storing water for a town to use.
-        example: If it doesn’t rain soon, the reservoir is going to dry up completely.
-        type: n
-        meaning_tr: Suv ombori - bu shaharning foydalanishi uchun suvni saqlash joyi.
-        example_tr: Tez orada yomg'ir yog'masa, suv ombori butunlay quriydi.
-      18:
-        word: streak
-        translation: alohida qism
-        audio: 4723
-        meaning: A streak is a long, thin mark that is easy to see.
-        example: Her hair was brown except for a streak which she dyed blonde.
-        type: n
-        meaning_tr: Chiziq - bu ko'rish oson bo'lgan uzun, ingichka belgi.
-        example_tr: Uning sochlari jigarrang edi, lekin u sariq rangga bo'yalgan.
-      19:
         word: pebble
         translation: tosh, tekis tosh
         audio: 4724
@@ -6624,15 +6607,34 @@ units:
         type: n
         meaning_tr: Shag'al - kichik, yumaloq tosh.
         example_tr: Suvni chayqash uchun ko'lga toshlarni tashladik.
-      20:
-        word: testify
-        translation: guvohlik bermoq
-        audio: 4725
-        meaning: To testify means to give evidence as a witness.
-        example: The judge listened while the victim testified about the robbery.
+      18:
+        word: peck
+        translation: choʻqilamoq, choʻqilab yemoq
+        audio: 4721
+        meaning: When a bird pecks, it bites or hits something with its beak.
+        example: The birds pecked at the seeds on the ground.
         type: v
-        meaning_tr: Guvohlik qilish, guvoh sifatida ko'rsatma berish demakdir.
-        example_tr: Jabrlanuvchi o'g'irlik haqida ko'rsatma berayotganda sudya tingladi.
+        meaning_tr: Qush cho‘ksa, tumshug‘i bilan biror narsani tishlaydi yoki uradi.
+        example_tr: Qushlar yerdagi urug‘larni paypasladi.
+      19:
+        word: reservoir
+        translation: suv ombori
+        audio: 4722
+        meaning: A reservoir is a place for storing water for a town to use.
+        example: If it doesn’t rain soon, the reservoir is going to dry up completely.
+        type: n
+        meaning_tr: Suv ombori - bu shaharning foydalanishi uchun suvni saqlash joyi.
+        example_tr: Tez orada yomg'ir yog'masa, suv ombori butunlay quriydi.
+      20:
+        word: streak
+        translation: alohida qism
+        audio: 4723
+        meaning: A streak is a long, thin mark that is easy to see.
+        example: Her hair was brown except for a streak which she dyed blonde.
+        type: n
+        meaning_tr: Chiziq - bu ko'rish oson bo'lgan uzun, ingichka belgi.
+        example_tr: Uning sochlari jigarrang edi, lekin u sariq rangga bo'yalgan.
+      
     photos:
       - 4386
       - 4388
