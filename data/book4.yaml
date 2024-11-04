@@ -2938,6 +2938,218 @@ units:
   15:
     words:
       1:
+        word: although
+        translation: -ga qarasamdan, -sa ham
+        audio: 2918
+        meaning: You use although to say that one thing is contrasted by another.
+        example: Although she was late, her friends gave her a warm welcome.
+        type: conj
+        meaning_tr: Siz bir narsani boshqasiga qarama-qarshi qo'yishni aytish uchun
+          ham ishlatasiz.
+        example_tr: U kechikkan bo‘lsa-da, dugonalari uni iliq kutib olishdi.
+      2:
+        word: apply
+        translation: surtmoq
+        audio: 2919
+        meaning: To apply something means to put it on.
+        example: She always applies makeup to her face before going outside.
+        type: v
+        meaning_tr: Biror narsani qo'llash, uni qo'llashni anglatadi.
+        example_tr: U har doim ko'chaga chiqishdan oldin yuziga bo'yanish surtadi.
+      3:
+        word: await
+        translation: kutmoq
+        audio: 2921
+        meaning: To await something means to wait for it.
+        example: The players awaited the judge’s decision.
+        type: v
+        meaning_tr: Biror narsani kutish uni kutishni anglatadi.
+        example_tr: Futbolchilar hakamning qarorini kutishdi.
+      4:
+        word: beloved
+        translation: sevimli, suyukli
+        audio: 2922
+        meaning: When something is beloved, it is very special and you like it very
+          much.
+        example: The boy took a nap next to his beloved cat.
+        type: adj
+        meaning_tr: Agar biror narsa sevimli bo'lsa, u juda o'ziga xos va sizga juda
+          yoqadi.
+        example_tr: Bola sevimli mushukining yonida uxlab qoldi.
+      5:
+        word: bury
+        translation: koʻmmoq, dafn qilmoq
+        audio: 2924
+        meaning: To bury someone or something means to put them in the ground.
+        example: They buried their grandfather under his favorite tree after he died.
+        type: v
+        meaning_tr: Birovni yoki biror narsani dafn etish, uni erga qo'yish demakdir.
+        example_tr: Ular bobosi vafotidan keyin uning sevimli daraxti tagiga dafn
+          etishdi.
+      6:
+        word: climate
+        translation: iqlim
+        audio: 2926
+        meaning: Climate is the usual weather in a place.
+        example: The climate in the desert is very hot.
+        type: n
+        meaning_tr: Iqlim - bu biron bir joyda odatiy ob-havo.
+        example_tr: Cho'lda iqlim juda issiq.
+      7:
+        word: complain
+        translation: shikoyat qilmoq
+        audio: 2927
+        meaning: When you complain, you say that you are unhappy about something.
+        example: The workers complained that they were being treated unfairly.
+        type: v
+        meaning_tr: Shikoyat qilganingizda, biror narsadan norozi ekanligingizni aytasiz.
+        example_tr: Ishchilar o‘zlariga nisbatan adolatsizlik qilinayotganidan shikoyat
+          qilishdi.
+      8:
+        word: confuse
+        translation: chalgʻitmoq, adashtirmoq
+        audio: 2929
+        meaning: To confuse someone means to make them feel like they are unsure.
+        example: The sign confused the traveler because it pointed in two directions.
+        type: v
+        meaning_tr: Biror kishini chalkashtirib yuborish, uni ishonchsizligini his
+          qilish demakdir.
+        example_tr: Belgi ikki tomonga ishora qilgani uchun sayohatchini chalkashtirib
+          yubordi.
+      9:
+        word: due
+        translation: kutilayotgan
+        audio: 2930
+        meaning: When something is due, it is expected to happen or be done at that
+          time.
+        example: The papers were due on the 19th.
+        type: adj
+        meaning_tr: Biror narsa kerak bo'lganda, u o'sha vaqtda sodir bo'lishi yoki
+          bajarilishi kutiladi.
+        example_tr: Hujjatlarni topshirish 19-kuni kerak edi.
+      10:
+        word: entire
+        translation: butun, butun boshli
+        audio: 2932
+        meaning: When you talk about an entire thing, you are talking about the whole
+          thing.
+        example: He was so hungry that he ate the entire pizza by himself.
+        type: adj
+        meaning_tr: Biror narsa haqida gapirganda, siz butun narsa haqida gapirasiz.
+        example_tr: U shunchalik och ediki, butun pitsani o'zi yedi.
+      11:
+        word: establish
+        translation: asos solmoq, tashkil qilmoq
+        audio: 2933
+        meaning: To establish something means to create it.
+        example: He wanted to establish a club for people to help the Earth.
+        type: v
+        meaning_tr: Biror narsani o'rnatish, uni yaratish demakdir.
+        example_tr: U Yerga yordam berish uchun odamlar uchun klub tashkil qilmoqchi
+          edi.
+      12:
+        word: furnace
+        translation: pech, gorn
+        audio: 2935
+        meaning: A furnace is a place where heat is made.
+        example: Mr. Jones came to fix the furnace.
+        type: n
+        meaning_tr: Pech - bu issiqlik olinadigan joy.
+        example_tr: Janob Jons pechni tuzatish uchun keldi.
+      13:
+        word: leash
+        translation: jilov, it arqoni
+        audio: 2936
+        meaning: A leash is a rope or chain that is used to lead an animal.
+        example: A lot of dogs must wear a leash to keep them from running away.
+        type: n
+        meaning_tr: Tasma - hayvonni yetaklash uchun ishlatiladigan arqon yoki zanjir.
+        example_tr: Ko'pgina itlar qochib ketmasligi uchun tasma kiyishlari kerak.
+      14:
+        word: mature
+        translation: yetilmoq, katta boʻlmoq
+        audio: 2938
+        meaning: To mature means to grow up to become an adult.
+        example: When they matured, they became as tall as their parents.
+        type: v
+        meaning_tr: Voyaga yetmoq, voyaga yetib, voyaga yetmoq demakdir.
+        example_tr: Ular kamolotga yetganlarida, ota-onalari kabi baland bo'yli bo'lishdi.
+      15:
+        word: measure
+        translation: oʻlchamoq
+        audio: 2939
+        meaning: To measure something means to find out the quality, value, or effect
+          of it.
+        example: The scientists carefully measured the amount of chemicals in the
+          tubes.
+        type: v
+        meaning_tr: Biror narsani o'lchash - uning sifatini, qiymatini yoki ta'sirini
+          aniqlash demakdir.
+        example_tr: Olimlar quvurlardagi kimyoviy moddalar miqdorini diqqat bilan
+          o‘lchab ko‘rdilar.
+      16:
+        word: midst
+        translation: oʻrtasi
+        audio: 2941
+        meaning: The midst of something is the middle of it.
+        example: She was in the midst of cleaning when the telephone rang.
+        type: n
+        meaning_tr: Biror narsaning o'rtasi uning o'rtasidir.
+        example_tr: Telefon jiringlaganida u tozalash ishlarini olib borayotgan edi.
+      17:
+        word: misery
+        translation: baxtsizlik
+        audio: 2942
+        meaning: Misery is extreme suffering.
+        example: There was a lot of misery after Sam lost his dog.
+        type: n
+        meaning_tr: Baxtsizlik - bu haddan tashqari azob.
+        example_tr: Sem itini yo'qotganidan keyin juda ko'p baxtsizlik bor edi.
+      18:
+        word: prior
+        translation: oldin, avvalroq
+        audio: 2944
+        meaning: When something happened prior to something else, it happened earlier.
+        example: Ron had to wait since he arrived prior to the scheduled meeting time.
+        type: adj
+        meaning_tr: Agar biror narsa boshqa narsadan oldin sodir bo'lsa, u oldinroq
+          sodir bo'lgan.
+        example_tr: Ron rejalashtirilgan uchrashuv vaqtidan oldin kelgani uchun kutishga
+          majbur bo'ldi.
+      19:
+        word: research
+        translation: tadqiqot, izlanish
+        audio: 2945
+        meaning: Research is close and careful study to discover new things.
+        example: Scientists did a lot of research on the subject of blood type.
+        type: n
+        meaning_tr: Tadqiqot yangi narsalarni kashf qilish uchun yaqin va ehtiyotkorlik
+          bilan o'rganishdir.
+        example_tr: Olimlar qon guruhi mavzusida juda ko'p tadqiqotlar o'tkazdilar.
+      20:
+        word: variety
+        translation: xilma-xillik
+        audio: 2947
+        meaning: A variety of something is a group of many different kinds of it.
+        example: There are a variety of flowers at the shop.
+        type: n
+        meaning_tr: Biror narsaning xilma-xilligi - uning turli xil turlaridan iborat
+          guruh.
+        example_tr: Do'konda turli xil gullar mavjud.
+    photos:
+      - 3372
+      - 3374
+    exercise:
+      - 3377
+      - 3378
+    reading:
+      photo:
+        - 3381
+        - 3384
+      audio:
+  16:
+    words:
+      1:
         word: altogether
         translation: toʻliq, tamomila
         audio: 2440
@@ -3134,17 +3346,17 @@ units:
         example_tr: Liz maktabda yomon o'qiyotganini bilgach, Jina qattiq qattiqqo'l
           edi.
     photos:
-      - 3372
-      - 3374
+      - 3385
+      - 3387
     exercise:
-      - 3377
-      - 3378
+      - 3390
+      - 3392
     reading:
       photo:
-        - 3381
-        - 3384
+        - 3394
+        - 3397
       audio:
-  16:
+  17:
     words:
       1:
         word: civilization
@@ -3341,17 +3553,17 @@ units:
         meaning_tr: O'tish - suvga kirish yoki suvdan o'tish.
         example_tr: Bola plyajdagi suvda suzdi.
     photos:
-      - 3385
-      - 3387
+      - 3399
+      - 3400
     exercise:
-      - 3390
-      - 3392
+      - 3403
+      - 3405
     reading:
       photo:
-        - 3394
-        - 3397
+        - 3408
+        - 3410
       audio:
-  17:
+  18:
     words:
       1:
         word: accent
@@ -3544,17 +3756,17 @@ units:
         meaning_tr: Zinapoya - bu bino ichida joylashgan zinapoyalar to'plami.
         example_tr: Zinadan to'g'ridan-to'g'ri oshxonaga olib boradi.
     photos:
-      - 3399
-      - 3400
+      - 3411
+      - 3413
     exercise:
-      - 3403
-      - 3405
+      - 3415
+      - 3417
     reading:
       photo:
-        - 3408
-        - 3410
+        - 3419
+        - 3422
       audio:
-  18:
+  19:
     words:
       1:
         word: afflicted
@@ -3752,17 +3964,17 @@ units:
         meaning_tr: Qusish, oshqozondan oziq-ovqat chiqishini anglatadi.
         example_tr: Homilador ayollarda qusish odatiy holdir.
     photos:
-      - 3411
-      - 3413
+      - 3424
+      - 3427
     exercise:
-      - 3415
-      - 3417
+      - 3429
+      - 3430
     reading:
       photo:
-        - 3419
-        - 3422
+        - 3432
+        - 3434
       audio:
-  19:
+  20:
     words:
       1:
         word: betray
@@ -3961,17 +4173,17 @@ units:
           demakdir.
         example_tr: Ko'ylagi shimiga tiqilib qolmagan holda, u bema'ni ko'rinardi.
     photos:
-      - 3424
-      - 3427
+      - 3436
+      - 3438
     exercise:
-      - 3429
-      - 3430
+      - 3440
+      - 3443
     reading:
       photo:
-        - 3432
-        - 3434
+        - 3445
+        - 3448
       audio:
-  20:
+  21:
     words:
       1:
         word: background
@@ -4170,17 +4382,17 @@ units:
         example_tr: Ilon zahari u yaratgan kasalliklarni davolash uchun ishlatilishi
           mumkin.
     photos:
-      - 3436
-      - 3438
+      - 3451
+      - 3453
     exercise:
-      - 3440
-      - 3443
+      - 3456
+      - 3458
     reading:
       photo:
-        - 3445
-        - 3448
+        - 3461
+        - 3463
       audio:
-  21:
+  22:
     words:
       1:
         word: charity
@@ -4387,17 +4599,17 @@ units:
         meaning_tr: G'olib - bu musobaqada g'olib chiqqan guruh yoki shaxs.
         example_tr: O'yin yakuniga ko'ra ko'k-ko'k jamoa g'alaba qozondi.
     photos:
-      - 3451
-      - 3453
+      - 3466
+      - 3468
     exercise:
-      - 3456
-      - 3458
+      - 3471
+      - 3473
     reading:
       photo:
-        - 3461
-        - 3463
+        - 3475
+        - 3477
       audio:
-  22:
+  23:
     words:
       1:
         word: accurate
@@ -4590,17 +4802,17 @@ units:
         meaning_tr: Vegetarian - bu go'sht mahsulotlarini iste'mol qilmaydigan odam.
         example_tr: Men vegetarian bo'ldim, chunki go'shtning ta'mini yoqtirmayman.
     photos:
-      - 3466
-      - 3468
+      - 3479
+      - 3481
     exercise:
-      - 3471
-      - 3473
+      - 3483
+      - 3485
     reading:
       photo:
-        - 3475
-        - 3477
+        - 3488
+        - 3491
       audio:
-  23:
+  24:
     words:
       1:
         word: cherish
@@ -4795,17 +5007,17 @@ units:
         meaning_tr: Biror narsani ushlab qolish, uni birovga bermaslikdir.
         example_tr: U jarimani to'lamaguncha, ular barcha ma'lumotlarni yashirishdi.
     photos:
-      - 3479
-      - 3481
+      - 3493
+      - 3496
     exercise:
-      - 3483
-      - 3485
+      - 3499
+      - 3501
     reading:
       photo:
-        - 3488
-        - 3491
+        - 3503
+        - 3506
       audio:
-  24:
+  25:
     words:
       1:
         word: aircraft
@@ -5006,17 +5218,17 @@ units:
         example_tr: Xelen zoologiyani o'rganishni xohlaydi, chunki u har doim hayvonlarni
           yaxshi ko'rgan.
     photos:
-      - 3493
-      - 3496
+      - 3508
+      - 3511
     exercise:
-      - 3499
-      - 3501
+      - 3513
+      - 3515
     reading:
       photo:
-        - 3503
-        - 3506
+        - 3518
+        - 3520
       audio:
-  25:
+  26:
     words:
       1:
         word: assumption
@@ -5223,17 +5435,17 @@ units:
         example_tr: Odamlar dam olish uchun tropiklarga borishni yaxshi ko'radilar,
           chunki u issiq.
     photos:
-      - 3508
-      - 3511
+      - 3522
+      - 3525
     exercise:
-      - 3513
-      - 3515
+      - 3527
+      - 3529
     reading:
       photo:
-        - 3518
-        - 3520
+        - 3532
+        - 3535
       audio:
-  26:
+  27:
     words:
       1:
         word: beneficial
@@ -5432,17 +5644,17 @@ units:
         example_tr: Jim va Ben daryo bo'yidagi o'rmonli hududda sayr qilishga qaror
           qilishdi.
     photos:
-      - 3522
-      - 3525
+      - 3537
+      - 3539
     exercise:
-      - 3527
-      - 3529
+      - 3541
+      - 3544
     reading:
       photo:
-        - 3532
-        - 3535
+        - 3546
+        - 3549
       audio:
-  27:
+  28:
     words:
       1:
         word: avail
@@ -5642,17 +5854,17 @@ units:
         meaning_tr: Yomon bo'lish - yomonlash.
         example_tr: Ob-havo birdan yomonlashdi va biz ichkarida qolishga majbur bo'ldik.
     photos:
-      - 3537
-      - 3539
+      - 3551
+      - 3552
     exercise:
-      - 3541
-      - 3544
+      - 3554
+      - 3557
     reading:
       photo:
-        - 3546
-        - 3549
+        - 3559
+        - 3561
       audio:
-  28:
+  29:
     words:
       1:
         word: automobile
@@ -5848,17 +6060,17 @@ units:
           har qanday transport vositasi.
         example_tr: Mening mashinam yo'q, shuning uchun mening oddiy transportim poezddir.
     photos:
-      - 3551
-      - 3552
+      - 3563
+      - 3565
     exercise:
-      - 3554
-      - 3557
+      - 3567
+      - 3569
     reading:
       photo:
-        - 3559
-        - 3561
+        - 3572
+        - 3575
       audio:
-  29:
+  30:
     words:
       1:
         word: bill
@@ -6057,218 +6269,6 @@ units:
         type: n
         meaning_tr: Shkaf - bu insonning barcha kiyimlari to'plami.
         example_tr: U garderobini kengaytirish uchun yangi kiyim sotib oldi.
-    photos:
-      - 3563
-      - 3565
-    exercise:
-      - 3567
-      - 3569
-    reading:
-      photo:
-        - 3572
-        - 3575
-      audio:
-  30:
-    words:
-      1:
-        word: although
-        translation: -ga qarasamdan, -sa ham
-        audio: 2918
-        meaning: You use although to say that one thing is contrasted by another.
-        example: Although she was late, her friends gave her a warm welcome.
-        type: conj
-        meaning_tr: Siz bir narsani boshqasiga qarama-qarshi qo'yishni aytish uchun
-          ham ishlatasiz.
-        example_tr: U kechikkan bo‘lsa-da, dugonalari uni iliq kutib olishdi.
-      2:
-        word: apply
-        translation: surtmoq
-        audio: 2919
-        meaning: To apply something means to put it on.
-        example: She always applies makeup to her face before going outside.
-        type: v
-        meaning_tr: Biror narsani qo'llash, uni qo'llashni anglatadi.
-        example_tr: U har doim ko'chaga chiqishdan oldin yuziga bo'yanish surtadi.
-      3:
-        word: await
-        translation: kutmoq
-        audio: 2921
-        meaning: To await something means to wait for it.
-        example: The players awaited the judge’s decision.
-        type: v
-        meaning_tr: Biror narsani kutish uni kutishni anglatadi.
-        example_tr: Futbolchilar hakamning qarorini kutishdi.
-      4:
-        word: beloved
-        translation: sevimli, suyukli
-        audio: 2922
-        meaning: When something is beloved, it is very special and you like it very
-          much.
-        example: The boy took a nap next to his beloved cat.
-        type: adj
-        meaning_tr: Agar biror narsa sevimli bo'lsa, u juda o'ziga xos va sizga juda
-          yoqadi.
-        example_tr: Bola sevimli mushukining yonida uxlab qoldi.
-      5:
-        word: bury
-        translation: koʻmmoq, dafn qilmoq
-        audio: 2924
-        meaning: To bury someone or something means to put them in the ground.
-        example: They buried their grandfather under his favorite tree after he died.
-        type: v
-        meaning_tr: Birovni yoki biror narsani dafn etish, uni erga qo'yish demakdir.
-        example_tr: Ular bobosi vafotidan keyin uning sevimli daraxti tagiga dafn
-          etishdi.
-      6:
-        word: climate
-        translation: iqlim
-        audio: 2926
-        meaning: Climate is the usual weather in a place.
-        example: The climate in the desert is very hot.
-        type: n
-        meaning_tr: Iqlim - bu biron bir joyda odatiy ob-havo.
-        example_tr: Cho'lda iqlim juda issiq.
-      7:
-        word: complain
-        translation: shikoyat qilmoq
-        audio: 2927
-        meaning: When you complain, you say that you are unhappy about something.
-        example: The workers complained that they were being treated unfairly.
-        type: v
-        meaning_tr: Shikoyat qilganingizda, biror narsadan norozi ekanligingizni aytasiz.
-        example_tr: Ishchilar o‘zlariga nisbatan adolatsizlik qilinayotganidan shikoyat
-          qilishdi.
-      8:
-        word: confuse
-        translation: chalgʻitmoq, adashtirmoq
-        audio: 2929
-        meaning: To confuse someone means to make them feel like they are unsure.
-        example: The sign confused the traveler because it pointed in two directions.
-        type: v
-        meaning_tr: Biror kishini chalkashtirib yuborish, uni ishonchsizligini his
-          qilish demakdir.
-        example_tr: Belgi ikki tomonga ishora qilgani uchun sayohatchini chalkashtirib
-          yubordi.
-      9:
-        word: due
-        translation: kutilayotgan
-        audio: 2930
-        meaning: When something is due, it is expected to happen or be done at that
-          time.
-        example: The papers were due on the 19th.
-        type: adj
-        meaning_tr: Biror narsa kerak bo'lganda, u o'sha vaqtda sodir bo'lishi yoki
-          bajarilishi kutiladi.
-        example_tr: Hujjatlarni topshirish 19-kuni kerak edi.
-      10:
-        word: entire
-        translation: butun, butun boshli
-        audio: 2932
-        meaning: When you talk about an entire thing, you are talking about the whole
-          thing.
-        example: He was so hungry that he ate the entire pizza by himself.
-        type: adj
-        meaning_tr: Biror narsa haqida gapirganda, siz butun narsa haqida gapirasiz.
-        example_tr: U shunchalik och ediki, butun pitsani o'zi yedi.
-      11:
-        word: establish
-        translation: asos solmoq, tashkil qilmoq
-        audio: 2933
-        meaning: To establish something means to create it.
-        example: He wanted to establish a club for people to help the Earth.
-        type: v
-        meaning_tr: Biror narsani o'rnatish, uni yaratish demakdir.
-        example_tr: U Yerga yordam berish uchun odamlar uchun klub tashkil qilmoqchi
-          edi.
-      12:
-        word: furnace
-        translation: pech, gorn
-        audio: 2935
-        meaning: A furnace is a place where heat is made.
-        example: Mr. Jones came to fix the furnace.
-        type: n
-        meaning_tr: Pech - bu issiqlik olinadigan joy.
-        example_tr: Janob Jons pechni tuzatish uchun keldi.
-      13:
-        word: leash
-        translation: jilov, it arqoni
-        audio: 2936
-        meaning: A leash is a rope or chain that is used to lead an animal.
-        example: A lot of dogs must wear a leash to keep them from running away.
-        type: n
-        meaning_tr: Tasma - hayvonni yetaklash uchun ishlatiladigan arqon yoki zanjir.
-        example_tr: Ko'pgina itlar qochib ketmasligi uchun tasma kiyishlari kerak.
-      14:
-        word: mature
-        translation: yetilmoq, katta boʻlmoq
-        audio: 2938
-        meaning: To mature means to grow up to become an adult.
-        example: When they matured, they became as tall as their parents.
-        type: v
-        meaning_tr: Voyaga yetmoq, voyaga yetib, voyaga yetmoq demakdir.
-        example_tr: Ular kamolotga yetganlarida, ota-onalari kabi baland bo'yli bo'lishdi.
-      15:
-        word: measure
-        translation: oʻlchamoq
-        audio: 2939
-        meaning: To measure something means to find out the quality, value, or effect
-          of it.
-        example: The scientists carefully measured the amount of chemicals in the
-          tubes.
-        type: v
-        meaning_tr: Biror narsani o'lchash - uning sifatini, qiymatini yoki ta'sirini
-          aniqlash demakdir.
-        example_tr: Olimlar quvurlardagi kimyoviy moddalar miqdorini diqqat bilan
-          o‘lchab ko‘rdilar.
-      16:
-        word: midst
-        translation: oʻrtasi
-        audio: 2941
-        meaning: The midst of something is the middle of it.
-        example: She was in the midst of cleaning when the telephone rang.
-        type: n
-        meaning_tr: Biror narsaning o'rtasi uning o'rtasidir.
-        example_tr: Telefon jiringlaganida u tozalash ishlarini olib borayotgan edi.
-      17:
-        word: misery
-        translation: baxtsizlik
-        audio: 2942
-        meaning: Misery is extreme suffering.
-        example: There was a lot of misery after Sam lost his dog.
-        type: n
-        meaning_tr: Baxtsizlik - bu haddan tashqari azob.
-        example_tr: Sem itini yo'qotganidan keyin juda ko'p baxtsizlik bor edi.
-      18:
-        word: prior
-        translation: oldin, avvalroq
-        audio: 2944
-        meaning: When something happened prior to something else, it happened earlier.
-        example: Ron had to wait since he arrived prior to the scheduled meeting time.
-        type: adj
-        meaning_tr: Agar biror narsa boshqa narsadan oldin sodir bo'lsa, u oldinroq
-          sodir bo'lgan.
-        example_tr: Ron rejalashtirilgan uchrashuv vaqtidan oldin kelgani uchun kutishga
-          majbur bo'ldi.
-      19:
-        word: research
-        translation: tadqiqot, izlanish
-        audio: 2945
-        meaning: Research is close and careful study to discover new things.
-        example: Scientists did a lot of research on the subject of blood type.
-        type: n
-        meaning_tr: Tadqiqot yangi narsalarni kashf qilish uchun yaqin va ehtiyotkorlik
-          bilan o'rganishdir.
-        example_tr: Olimlar qon guruhi mavzusida juda ko'p tadqiqotlar o'tkazdilar.
-      20:
-        word: variety
-        translation: xilma-xillik
-        audio: 2947
-        meaning: A variety of something is a group of many different kinds of it.
-        example: There are a variety of flowers at the shop.
-        type: n
-        meaning_tr: Biror narsaning xilma-xilligi - uning turli xil turlaridan iborat
-          guruh.
-        example_tr: Do'konda turli xil gullar mavjud.
     photos:
       - 3577
       - 3578
