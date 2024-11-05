@@ -23,6 +23,10 @@ class Unit:
         self.num = unit
         self.words : dict[int, Word] = {positon : Word(word_data) for positon, word_data in unit_data.get('words', {}).items()}
         self.photos_id : list[int] = [photo_id for photo_id in unit_data.get('photos', [])]
+        self.exercise : list[int] = [photo_id for photo_id in unit_data.get('exercise', [])]
+        reading : dict = unit_data.get('reading', {})
+        self.reading_photos : list[int] = [photo for photo in reading.get('photo')]
+        self.reading_audio : int = reading.get('audio')
         self.data = unit_data
         self.text = self.get_words_text()
 

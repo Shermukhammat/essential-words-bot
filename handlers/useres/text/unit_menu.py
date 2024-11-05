@@ -1,4 +1,4 @@
-from loader import db, dp
+from loader import db, dp, bot
 from data import Unit, BookData, Word
 from aiogram import types
 from aiogram.dispatcher import FSMContext
@@ -31,6 +31,24 @@ async def unit_menu_handler(update : types.Message, state : FSMContext):
                                 parse_mode=types.ParseMode.MARKDOWN,
                                 reply_markup=InlineButtons.wordlist_buttons(book, unit))        
 
+    elif re.search(r'Exercise', update.text):
+        unitt = await db.get_unit(book, unit)
+        for photo_id in unitt.exercise:
+            await bot.copy_message(chat_id=update.from_user.id,
+                                   message_id=photo_id,
+                                   from_chat_id=db.DATA_CHANEL)
+    
+    elif re.search(r'Reading', update.text):
+        unitt = await db.get_unit(book, unit)
+        for photo_id in unitt.reading_photos:
+            await bot.copy_message(chat_id=update.from_user.id,
+                                   message_id=photo_id,
+                                   from_chat_id=db.DATA_CHANEL)
+            
+        if unitt.reading_audio:
+            await bot.copy_message(chat_id=update.from_user.id,
+                                   message_id=unitt.reading_audio,
+                                   from_chat_id=db.DATA_CHANEL)
 
     else:
         await update.answer("❌ Noto'gri buyruq", 
