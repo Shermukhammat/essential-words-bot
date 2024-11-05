@@ -33,11 +33,11 @@ class Unit:
     def get_words_text(self) -> str:
         book_icon = books.get(self.book_num, "📗")
         # Use Markdown for formatting; if using HTML, replace `**` with <b>...</b>
-        text = f"{book_icon} **Book {self.book_num}**  Unit {self.num}\n\n"
+        text = f"{book_icon} Book {self.book_num}  Unit {self.num}\n\n"
     
         # Add icons for meaning and translation
         for position, word in self.words.items():
-            text += f"{position}  {word.value} - _{word.translation}_\n"
+            text += f"{position}  {word.value} - {word.translation}\n"
         
         return text
 
@@ -62,7 +62,8 @@ class BookData2:
     def __init__(self, path : str) -> None:
         self.path = path
         self.books : dict[int, Cache]  = {n : Cache() for n in range(1, 7)}
-
+        self.yaml = UGUtils('data/book.yaml')
+        self.yaml_data  : dict[int, dict] = self.yaml.get_yaml()
 
     async def get_unit(self, book : int, unit : int) -> Unit:
         answer = await self.books[book].get(unit)
@@ -79,6 +80,18 @@ class BookData2:
             if self.books.get(unit.book_num):
                 await self.books[unit.book_num].set(unit.num, unit)
         
+    def get_book_pdf(self, num : int) -> int:
+        if self.yaml_data.get(num):
+            return self.yaml_data[num]['pdf']
+    
+    def get_book_audio(self, num : int) -> int:
+        if self.yaml_data.get(num):
+            return self.yaml_data[num]['audio']
+    
+    def get_book_appendix(self, num : int) -> list[int]:
+        if self.yaml_data.get(num):
+            return self.yaml_data[num].get('appendix', [])
+        return []
 
 
 def add_words(path : str, unit : Unit) -> bool:
