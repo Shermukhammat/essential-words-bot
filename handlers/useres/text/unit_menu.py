@@ -1,4 +1,4 @@
-from loader import db, dp, books_data
+from loader import db, dp
 from data import Unit, BookData, Word
 from aiogram import types
 from aiogram.dispatcher import FSMContext
@@ -25,7 +25,7 @@ async def unit_menu_handler(update : types.Message, state : FSMContext):
         await update.answer("🎛 Bosh menu", reply_markup=DefoltButton.user_home_menu)
     
     elif re.search(r'Word list', update.text):
-        text = get_word_list(book, unit)
+        text = await get_word_list(book, unit)
         if text:
             await update.answer(text, 
                                 parse_mode=types.ParseMode.MARKDOWN,
@@ -38,9 +38,7 @@ async def unit_menu_handler(update : types.Message, state : FSMContext):
 
 
 
-def get_word_list(book : int, unit : int) -> str:
-    book_db = books_data.get(book)
-    if book_db:
-        unit : Unit = book_db.units.get(unit)
-        if unit:
-            return unit.text
+async def get_word_list(book : int, unit_num : int) -> str:
+    unit = await db.get_unit(book, unit_num)
+    if unit:
+        return unit.text

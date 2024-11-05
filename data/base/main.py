@@ -4,9 +4,11 @@ from .users import UsersDb, Status, User
 from asyncio import Semaphore
 from .params import ParamsDB
 from .admins import Admin, AdminsDb, AdminType
+from .book import BookData2
 from aiogram.types import User
 
-class DataBase(UsersDb, ParamsDB, AdminsDb):
+
+class DataBase(UsersDb, ParamsDB, AdminsDb, BookData2):
     def __init__(self, path : str, config_file : str = 'config.yaml') -> None:
         creat_tables(path) 
         self.write_semapore = Semaphore()
@@ -15,6 +17,7 @@ class DataBase(UsersDb, ParamsDB, AdminsDb):
         UsersDb.__init__(self, path, write_semapore = self.write_semapore, cache_leng=100)
         ParamsDB.__init__(self, config_file)
         AdminsDb.__init__(self, path, write_semapore = self.write_semapore, cache_leng=100)
+        BookData2.__init__(self, path)
 
     
     def init_bot_info(self, info : User):
