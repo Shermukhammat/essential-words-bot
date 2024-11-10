@@ -16,7 +16,9 @@ async def get_unit_num_calback(query : types.CallbackQuery, state : FSMContext):
     async with semaphore:
         if query.data == 'cancle':
             await state.reset_state()
-            await query.message.answer("Test bekor qilndi", reply_markup=DefoltButton.user_home_menu)
+            await query.message.answer("✅ Test bekor qilndi", reply_markup=DefoltButton.user_home_menu)
+
+            await query.message.delete()
     
         elif query.data == 'back':
             await state.set_state(UserState.test.get_book_num)
@@ -51,23 +53,24 @@ async def go_next_state(query : types.CallbackQuery, state : FSMContext, state_d
     uzen = state_data.get('uzen')
     random = state_data.get('random')
     await state.set_state(UserState.test.start_test)
+
     if random:
         random_text = 'yoniq'
     else:
         random_text = 'o\'chiq'
     if uzen:
-        uzen_text = "🇺🇿 O'zbekchadan  🇬🇧 Inglizchaga"
+        uzen_text = "❓ Savol: `🇺🇿 O'zbekcha` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
     else:
-        uzen_text = "🇬🇧 Inglizchadan 🇺🇿 O'zbekchaga"
+        uzen_text = "❓ Savol: `🇬🇧 Inglizcha` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
     
     if shoud_edit(query.message.date):
-        await query.message.edit_text(text = f"📖 Book {book} Test \n\n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n🔄 Tartib: `{uzen_text}`",
+        await query.message.edit_text(text = f"📖 Book {book} Test \n\n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                          parse_mode=types.ParseMode.MARKDOWN,
                                          reply_markup=InlineButtons.start_test_buttons(uzen = uzen,
                                                                                        random = random,
                                                                                        time = state_data.get('time')))
     else:
-        await query.message.answer(f"📖 Book: {book} Test \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n🔄 Tartib: `{uzen_text}`",
+        await query.message.answer(f"📖 Book: {book} Test \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                     parse_mode=types.ParseMode.MARKDOWN,
                                     reply_markup=InlineButtons.start_test_buttons(uzen = uzen,random = random, time = state_data.get('time')))
 

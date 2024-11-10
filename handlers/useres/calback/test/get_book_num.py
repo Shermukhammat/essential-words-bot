@@ -28,6 +28,7 @@ async def get_book_num_calback(query : types.CallbackQuery, state : FSMContext):
         elif query.data == 'cancle':
             await state.reset_state()
             await query.message.answer("✅ Test bekor qilndi", reply_markup=DefoltButton.user_home_menu)
+            await query.message.delete()
 
         else:
             await query.answer("❌ Noto'g'ri buyruq", cache_time=60)

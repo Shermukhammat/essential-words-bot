@@ -25,7 +25,13 @@ async def start_test_calback(query : types.CallbackQuery, state : FSMContext):
                 await query.message.answer(f"📖 Book: {book} \nUnitlarni tanlang, maksimal 5ta unit 👇",
                                        reply_markup=InlineButtons.unit_buttons(state_data.get('selected', []), book = book))
                 await query.message.delete()
+        
+        elif query.data == 'cancle':
+            await state.reset_state()
 
+            await query.message.answer("✅ Test bekor qilndi", reply_markup=DefoltButton.user_home_menu)
+            await query.message.delete()
+        
         elif query.data == 'start':
             pass
 
@@ -83,12 +89,12 @@ async def edit_start_message(query : types.CallbackQuery, state_data : dict):
     random_text, uzen_text = get_texts(uzen, random)
         
     if shoud_edit(query.message.date):
-        await query.message.edit_text(text = f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n🔄 Tartib: `{uzen_text}`",
+        await query.message.edit_text(text = f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                          parse_mode=types.ParseMode.MARKDOWN,
                                          reply_markup=InlineButtons.start_test_buttons(uzen = uzen,
                                                                                        random = random, time = time))
     else:
-        await query.message.answer(f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n🔄 Tartib: `{uzen_text}`",
+        await query.message.answer(f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                     parse_mode=types.ParseMode.MARKDOWN,
                                     reply_markup=InlineButtons.start_test_buttons(uzen = uzen,random = random, time = time))
             
@@ -99,8 +105,8 @@ def get_texts(uzen : bool, random : bool):
     else:
         random_text = 'o\'chiq'
     if uzen:
-        uzen_text = "🇺🇿 O'zbekchadan  🇬🇧 Inglizchaga"
+        uzen_text = "❓ Savol: `🇺🇿 O'zbekcha` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
     else:
-        uzen_text = "🇬🇧 Inglizchadan 🇺🇿 O'zbekchaga"
+        uzen_text = "❓ Savol: `🇬🇧 Inglizcha` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
     
     return random_text, uzen_text
