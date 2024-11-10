@@ -2,9 +2,10 @@ from loader import dp, db, bot
 from aiogram import types
 from utilites.buttons import InlineButtons
 from data import Unit
+from utilites.states import UserState
 
 
-@dp.callback_query_handler(state="*")
+@dp.callback_query_handler(state=UserState.all_states)
 async def query_handler(update : types.CallbackQuery):
     if update.data == 'x':
         await update.answer("❌ Bu tugmadan faqat 1 marta foydalnish mumkun", show_alert=True, cache_time = 30)
@@ -19,6 +20,27 @@ async def query_handler(update : types.CallbackQuery):
                                    message_id=id,
                                    from_chat_id=db.DATA_CHANEL)
         
+    else:
+        await update.answer("❌ Noto'g'ri buyruq", show_alert=True)
+
+
+@dp.callback_query_handler()
+async def query_handler2(update : types.CallbackQuery):
+    if update.data == 'x':
+        await update.answer("❌ Bu tugmadan faqat 1 marta foydalnish mumkun", show_alert=True, cache_time = 30)
+        return
+    
+    unit = await get_unit(update.data)
+    if unit:
+        await update.message.edit_reply_markup(InlineButtons.wordlist_buttons(unit.book_num, unit.num, forbid_photo = True))
+
+        for id in unit.photos_id:
+            await bot.copy_message(chat_id=update.from_user.id,
+                                   message_id=id,
+                                   from_chat_id=db.DATA_CHANEL)
+        
+    else:
+        await update.answer("❌ Noto'g'ri buyruq", show_alert=True)
 
 
 async def get_unit(query : str) -> Unit:

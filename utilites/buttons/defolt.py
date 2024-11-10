@@ -33,6 +33,12 @@ class DefoltButton:
             resize_keyboard=True
         )
 
+    back_button = ReplyKeyboardMarkup(resize_keyboard=True,
+                                      keyboard=[[KeyboardButton("⬅️ Orqaga")]])
+    cancle_button = ReplyKeyboardMarkup(resize_keyboard=True,
+                                      keyboard=[[KeyboardButton("❌ Bekor qilish")]])
+    back_with_cancle = ReplyKeyboardMarkup(resize_keyboard=True,
+                                      keyboard=[[KeyboardButton("⬅️ Orqaga"), KeyboardButton("❌ Bekor qilish")]])
 
     def get_book_menu(book : int) -> ReplyKeyboardMarkup:
         if book <= 6 and book >= 1:
