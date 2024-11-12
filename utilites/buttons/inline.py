@@ -10,11 +10,15 @@ class InlineButtons:
         [InlineKeyboardButton(text= '❌ Testni bekor qilish', callback_data='cancle')]
     ])
 
-    def start_test_buttons(uzen : bool = True, random : bool = False, time : int = 10):
-        if uzen:
-            uzen = InlineKeyboardButton(text="🇺🇿🔁🇬🇧", callback_data='uzen_off')
+    def start_test_buttons(uzen : bool = True, random : bool = False, time : int = 10, order : str = 'uzeng'):
+        if 'defeng' == order:
+            uzen = InlineKeyboardButton(text="🛡🔁🇬🇧", callback_data='defeng')
+        elif 'defuz' == order:
+            uzen = InlineKeyboardButton(text="🛡🔁🇺🇿", callback_data='defuz')
+        elif 'uzen' == order:
+            uzen = InlineKeyboardButton(text="🇺🇿🔁🇬🇧", callback_data='uzen')
         else:
-            uzen = InlineKeyboardButton(text="🇬🇧🔁🇺🇿", callback_data='uzen_on')
+            uzen = InlineKeyboardButton(text="🇬🇧🔁🇺🇿", callback_data='enuz')
 
         if random:
             random = InlineKeyboardButton(text="✅ Aralashtirish", callback_data='random_off')

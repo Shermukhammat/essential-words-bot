@@ -53,16 +53,28 @@ async def start_test_calback(query : types.CallbackQuery, state : FSMContext):
                 await state.update_data(random = False)
                 await edit_start_message(query, state_data)
 
-        elif query.data == 'uzen_off':
-            if state_data['uzen']:
-                state_data['uzen'] = False
-                await state.update_data(uzen = False)
+        elif query.data == 'enuz':
+            if state_data.get('order') != 'uzen':
+                state_data['order'] = 'uzen'
+                await state.update_data(order = 'uzen')
                 await edit_start_message(query, state_data)
         
-        elif query.data == 'uzen_on':
-            if state_data['uzen'] == False:
-                state_data['uzen'] = True
-                await state.update_data(uzen = True)
+        elif query.data == 'uzen':
+            if state_data.get('order') != 'defeng':
+                state_data['order'] = 'defeng'
+                await state.update_data(order = 'defeng')
+                await edit_start_message(query, state_data)
+
+        elif query.data == 'defeng':
+            if state_data.get('order') != 'defuz':
+                state_data['order'] = 'defuz'
+                await state.update_data(order = 'defuz')
+                await edit_start_message(query, state_data)
+
+        elif query.data == 'defuz':
+            if state_data.get('order') != 'enuz':
+                state_data['order'] = 'enuz'
+                await state.update_data(order = 'enuz')
                 await edit_start_message(query, state_data)
 
         else:
@@ -82,29 +94,38 @@ async def start_test_calback(query : types.CallbackQuery, state : FSMContext):
 
 async def edit_start_message(query : types.CallbackQuery, state_data : dict):
     selected = str(state_data.get('selected'))
-    uzen = state_data.get('uzen')
+    # uzen = state_data.get('uzen')
+    order = state_data.get('order', 'uzen')
     book = state_data.get('book')
     time = state_data.get('time')
     random = state_data.get('random')
-    random_text, uzen_text = get_texts(uzen, random)
+    random_text, uzen_text = get_texts(order, random)
         
     if shoud_edit(query.message.date):
         await query.message.edit_text(text = f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                          parse_mode=types.ParseMode.MARKDOWN,
-                                         reply_markup=InlineButtons.start_test_buttons(uzen = uzen,
-                                                                                       random = random, time = time))
+                                         reply_markup=InlineButtons.start_test_buttons(order = order,
+                                                                                       random = random, 
+                                                                                       time = time))
     else:
         await query.message.answer(f"📖 Book {book} Test\n \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{time} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                     parse_mode=types.ParseMode.MARKDOWN,
-                                    reply_markup=InlineButtons.start_test_buttons(uzen = uzen,random = random, time = time))
+                                    reply_markup=InlineButtons.start_test_buttons(order = order, 
+                                                                                  random = random, 
+                                                                                  time = time))
             
 
-def get_texts(uzen : bool, random : bool):
+def get_texts(order : str, random : bool):
     if random:
         random_text = 'yoniq'
     else:
         random_text = 'o\'chiq'
-    if uzen:
+    
+    if order == 'defeng':
+        uzen_text = "❓ Savol: `🛡 Definiton` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
+    elif order == 'defuz':
+        uzen_text = "❓ Savol: `🛡 Definiton` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
+    elif order == 'uzen':
         uzen_text = "❓ Savol: `🇺🇿 O'zbekcha` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
     else:
         uzen_text = "❓ Savol: `🇬🇧 Inglizcha` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"

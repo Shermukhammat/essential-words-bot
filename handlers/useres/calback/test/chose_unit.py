@@ -50,7 +50,7 @@ async def get_unit_num_calback(query : types.CallbackQuery, state : FSMContext):
 async def go_next_state(query : types.CallbackQuery, state : FSMContext, state_data : dict = None):
     book = state_data.get('book')
     selected = str(state_data.get('selected', []))
-    uzen = state_data.get('uzen')
+    order = state_data.get('order', 'uzen')
     random = state_data.get('random')
     await state.set_state(UserState.test.start_test)
 
@@ -58,7 +58,12 @@ async def go_next_state(query : types.CallbackQuery, state : FSMContext, state_d
         random_text = 'yoniq'
     else:
         random_text = 'o\'chiq'
-    if uzen:
+    
+    if order == 'defeng':
+        uzen_text = "❓ Savol: `🛡 Definiton` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
+    elif order == 'defuz':
+        uzen_text = "❓ Savol: `🛡 Definiton` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
+    elif order == 'uzen':
         uzen_text = "❓ Savol: `🇺🇿 O'zbekcha` \n🧩Variyantlar: `🇬🇧 Inglizcha`"
     else:
         uzen_text = "❓ Savol: `🇬🇧 Inglizcha` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
@@ -66,13 +71,13 @@ async def go_next_state(query : types.CallbackQuery, state : FSMContext, state_d
     if shoud_edit(query.message.date):
         await query.message.edit_text(text = f"📖 Book {book} Test \n\n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                          parse_mode=types.ParseMode.MARKDOWN,
-                                         reply_markup=InlineButtons.start_test_buttons(uzen = uzen,
+                                         reply_markup=InlineButtons.start_test_buttons(order = order,
                                                                                        random = random,
                                                                                        time = state_data.get('time')))
     else:
         await query.message.answer(f"📖 Book: {book} Test \n🔢 Unitlar: `{selected[1:-1]}` \n⏳ Vaxt harbir test uchun: `{state_data.get('time')} sec` \n🎲 Aralashtirish: `{random_text}` \n{uzen_text}",
                                     parse_mode=types.ParseMode.MARKDOWN,
-                                    reply_markup=InlineButtons.start_test_buttons(uzen = uzen,random = random, time = state_data.get('time')))
+                                    reply_markup=InlineButtons.start_test_buttons(order = order,random = random, time = state_data.get('time')))
 
 
 async def update_unit(query : types.CallbackQuery, state : FSMContext, command : str = 's', unit : int = 1):
