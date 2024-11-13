@@ -11,29 +11,39 @@ class Question:
                  answer : str = None,
                  options : list[str] = []) -> None:
         self.value = value
+        self.answer_index = 0
         self.answer = answer
         self.options = options
-        self.resolt : bool = False
+        self.resolt : bool = None
         self.num = num
         self.unit = unit
         self.num_at_unit = num_at_unit
+
+    def check_answer(self, index : int):
+        if len(self.options) > index:
+            self.resolt = self.options[index] == self.answer
+        
+    
+    def add_options(self, options : list[str]):
+        self.options = options
+        self.options.append(self.answer)
+        random.shuffle(self.options)
+        self.answer_index = self.options.index(self.answer)
     
 
 
-def get_question_text(word : Word, uzen : bool, definition : bool = False) -> str:
-    if definition:
+def get_question_text(word : Word, order : str) -> str:
+    if order == 'defeng' or order == 'defuz':
         text = word.meanig.lower()
         return text.replace(word.value.lower(), "_____")
-    elif uzen:
-        return f"❓ {word.translation}"
-    return f"❓ {word.value}"
+    elif order == 'uzen':
+        return word.translation
+    return word.value
 
-def get_question_answer(word : Word, uzen : bool, definition : bool = False) -> str:
-    if definition:
-        return word.value
-    elif uzen:
-        return word.value
-    return word.translation
+def get_question_answer(word : Word, order : str) -> str:
+    if order == 'defuz' or order == 'enuz':
+        return word.translation
+    return word.value
 
 
 def get_options(options : list[str], ignore : str) -> list[str]:
@@ -44,13 +54,15 @@ def get_options(options : list[str], ignore : str) -> list[str]:
         return random.sample(options, 3)
     
 
-def get_questions(units : list[Unit], uzen : bool = True, mix : bool = False, definition : bool = False) -> list[Question]:
+def get_questions(units : list[Unit], 
+                  order : str = None,
+                  mix : bool = False) -> list[Question]:
     questions : list[Question] = []
     options = []
     for unit in units:
         for word_num, word in unit.words.items():
-            question = get_question_text(word, uzen, definition = definition)
-            answer = get_question_answer(word, uzen, definition = definition)
+            question = get_question_text(word, order)
+            answer = get_question_answer(word, order)
             options.append(answer)
             questions.append(Question(num_at_unit = word_num, 
                                    unit = unit.num,
@@ -58,7 +70,7 @@ def get_questions(units : list[Unit], uzen : bool = True, mix : bool = False, de
                                    answer = answer))
     
     for index, question in enumerate(questions):
-        questions[index].options = get_options(options, question.answer)
+        questions[index].add_options(get_options(options, question.answer))
     
     if mix:
         random.shuffle(questions)
@@ -76,17 +88,16 @@ class Test:
                  book : int = 1, 
                  units : list[Unit] = [],
                  time : int = 10,
-                 definition : bool = False,
                  mix : bool = False,
-                 uz_en : bool = False) -> None:
-        
+                 order : str = 'enuz') -> None:
         self.total_time : int = 0
         self.time = time
         self.book = book
-        self.questions = get_questions(units, uzen=uz_en, mix=mix, definition=definition)
+        self.questions = get_questions(units, mix=mix, order=order)
         self.length = len(self.questions)
         self.correct_answers = 0
         self.wrong_answers = 0
+        self.skiped = 0
         self.answers = []    
         
     
@@ -95,24 +106,21 @@ class Test:
             return self.questions.pop(0)
     
     def add_answer(self, question : Question):
-        if question.resolt:
+        if question.resolt == True:
             self.correct_answers += 1
-        else:
+        elif question.resolt == False:
             self.wrong_answers += 1
+        else:
+            self.skiped += 1
 
         self.answers.append(question)
 
     def get_resolts(self):\
-        return f""""📈 Book {self.book} test natijalari  
-        
-        🔢 Jami savollar: {self.length} 
-        ✅ To'g'ri: {self.correct_answers}
-        ❌ Xato: {self.wrong_answers} 
-        ⏳ Vaxt: {self.readable_time}"""
+        return f"""📖 Book {self.book} test natijalari \n\n🔢 Jami savollar: {self.length} \n✅ To'g'ri: {self.correct_answers} \n❌ Xato: {self.wrong_answers} \n➡️Javob berilmadi: {self.skiped}  \n⏳ Vaxt: {self.readable_time}"""
 
     @property
     def readable_time(self) -> str:
-        seconds = self.time
+        seconds = self.total_time
         days, seconds = divmod(seconds, 86400) # 86400 seconds in a day
         hours, seconds = divmod(seconds, 3600)  # 3600 seconds in an hour
         minutes, seconds = divmod(seconds, 60)  # 60 seconds in a minute

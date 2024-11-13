@@ -2,7 +2,7 @@ from loader import dp, db, bot
 from aiogram import types
 from utilites.buttons import InlineButtons, DefoltButton
 from utilites.states import UserState
-from utilites import shoud_edit, get_semaphore
+from utilites import shoud_edit, get_semaphore, get_expair_time
 from aiogram.dispatcher import FSMContext
 from datetime import datetime, timedelta, timezone
 from asyncio import Semaphore
@@ -33,7 +33,7 @@ async def start_test_calback(query : types.CallbackQuery, state : FSMContext):
             await query.message.delete()
         
         elif query.data == 'start':
-            pass
+            await start_test(query, state)
 
         elif query.data == 'random_on':
             if state_data['random'] == True:
@@ -131,3 +131,49 @@ def get_texts(order : str, random : bool):
         uzen_text = "❓ Savol: `🇬🇧 Inglizcha` \n🧩Variyantlar: `🇺🇿 O'zbekcha`"
     
     return random_text, uzen_text
+
+
+import asyncio
+from utilites import Test
+
+async def start_test(query : types.CallbackQuery, state : FSMContext):
+    await state.set_state(UserState.test.in_progres)
+    await query.message.edit_reply_markup()
+
+    state_data = await state.get_data()
+    book = state_data.get('book', 1)
+    units = [await db.get_unit(book, unit) for unit in state_data.get('selected', [])]
+    
+    test = Test(book=book, 
+                units=units, 
+                order=state_data.get('order', 'enuz'),
+                mix = state_data.get('random'),
+                time=state_data.get('time', 30))
+
+
+    message_data = await query.message.answer("Testni boshlashga tayyormisiz ?")
+    await asyncio.sleep(1)
+    await message_data.edit_text("🚀")
+    await asyncio.sleep(2)
+    await message_data.delete()
+
+    question = test.get_question()
+
+    pool_data = await query.message.answer_poll(f"[{question.num}/{test.length}] {question.value}",
+                                    is_anonymous=False,
+                                    explanation=f"To'gri javob `{question.answer}` edi",
+                                    explanation_parse_mode=types.ParseMode.MARKDOWN,
+                                    options = question.options,
+                                    correct_option_id = question.answer_index,
+                                    open_period=test.time,
+                                    reply_markup=DefoltButton.user_test_buttons,
+                                    type='quiz')
+    
+    await state.update_data(current_question = question, 
+                            test = test, 
+                            start = datetime.now(), 
+                            message_id = pool_data.message_id, 
+                            poll_id = pool_data.poll.id)    
+
+
+    

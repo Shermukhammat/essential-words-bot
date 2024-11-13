@@ -32,7 +32,9 @@ class DefoltButton:
             ],
             resize_keyboard=True
         )
-
+    user_test_buttons = ReplyKeyboardMarkup(resize_keyboard=True,
+                                      keyboard=[[KeyboardButton("➡️ Keyingi")],
+                                                [KeyboardButton("❌ Testni bekor qilish")]])
     back_button = ReplyKeyboardMarkup(resize_keyboard=True,
                                       keyboard=[[KeyboardButton("⬅️ Orqaga")]])
     cancle_button = ReplyKeyboardMarkup(resize_keyboard=True,

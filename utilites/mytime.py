@@ -6,3 +6,7 @@ def shoud_edit(message_date : datetime) -> bool:
     if age < timedelta(hours=48):
         return True 
     return False
+
+
+def get_expair_time(seconds : int) -> int:
+    return int((datetime.now() + timedelta(seconds=seconds)).timestamp())

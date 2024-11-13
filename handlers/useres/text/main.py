@@ -25,7 +25,7 @@ async def main_text_handler(update : types.Message, state : FSMContext):
         message = await update.answer("Kitobni tanlang 👇",
                             reply_markup=InlineButtons.books_button)
         
-        await state.update_data(selected = [], random = False, uzen = False, time = 30, semaphore = asyncio.Semaphore(1))
+        await state.update_data(selected = [], random = False, order = 'enuz', time = 30, semaphore = asyncio.Semaphore(1))
 
 
     else:
