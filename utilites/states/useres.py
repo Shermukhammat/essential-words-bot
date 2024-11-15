@@ -10,9 +10,17 @@ class TestState(StatesGroup):
     start_test = State()
     in_progres = State()
 
+class FlashcardState(StatesGroup):
+    get_book_num = State()
+    get_units = State()
+    get_words_order  = State()
+    start_progress = State()
+    in_progres = State()
+
 
 class UserState(StatesGroup):
     book_menu = State()
     unit_menu = State()
 
     test = TestState()
+    flashcard = FlashcardState()

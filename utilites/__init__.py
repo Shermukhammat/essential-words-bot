@@ -4,3 +4,4 @@ from .mytime import shoud_edit, get_expair_time
 from .queue import get_semaphore
 
 from .quest import *
+from .flashcard import Flashcards, Card

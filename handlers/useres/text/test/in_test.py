@@ -47,7 +47,7 @@ async def in_progres_tes_text(update : types.Message, state : FSMContext):
                                     reply_markup=DefoltButton.user_home_menu)
 
 
-        elif update.text == "❌ Testni bekor qilish":
+        elif update.text == "❌ Bekor qilish":
             await state.reset_state()
             await update.answer("✅ Test bekor qilndi", reply_markup=DefoltButton.user_home_menu)
         

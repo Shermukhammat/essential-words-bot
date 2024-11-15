@@ -76,7 +76,17 @@ async def book_menu_handler(update : types.Message, state : FSMContext):
         await update.answer(f"📖 Book {book_num} Test \nUnitlarni tanlang, maksimal 5ta unit 👇",
                                           reply_markup=InlineButtons.unit_buttons(state_data.get('selected', []), book = book_num))
 
-        
+
+    elif re.search('Flashcard', update.text):
+        state_data = await state.get_data()
+        book_num = state_data.get('book', 1)
+        await state.set_state(UserState.flashcard.get_units)
+
+        await state.update_data(selected = [], random = False, order = 'enuz', time = 30, semaphore = asyncio.Semaphore(1))
+
+        await update.answer("📝", reply_markup=types.ReplyKeyboardRemove())
+        await update.answer(f"📖 Book {book_num} flashcard \nUnitlarni tanlang, maksimal 5ta unit 👇",
+                                          reply_markup=InlineButtons.unit_buttons(state_data.get('selected', []), book = book_num))
 
     else:
         state_data = await state.get_data()

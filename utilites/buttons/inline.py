@@ -7,8 +7,31 @@ class InlineButtons:
     books_button = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text = "📗 Book 1", callback_data='1'),InlineKeyboardButton(text = "📕 Book 2", callback_data='2'), InlineKeyboardButton(text = "📘 Book 3", callback_data='3')],
         [InlineKeyboardButton(text = "📙 Book 4", callback_data='4'),InlineKeyboardButton(text = "📔 Book 5", callback_data='5'), InlineKeyboardButton(text = "📓 Book 6", callback_data='6')],
-        [InlineKeyboardButton(text= '❌ Testni bekor qilish', callback_data='cancle')]
+        [InlineKeyboardButton(text= '❌ Bekor qilish', callback_data='cancle')]
     ])
+
+    flashcard_buttons = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton("👀 Javobni ko'rish", callback_data="see")]])
+    flashcard_buttons_get_answer = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton("✅ Topdim", callback_data="correct"), InlineKeyboardButton("❌ Topa olmadim", callback_data='wrong')]])
+
+    def start_flashcard_buttons(random : bool = False, order : str = 'uzeng'):
+        if 'defeng' == order:
+            uzen = InlineKeyboardButton(text="🛡🔁🇬🇧", callback_data='defeng')
+        elif 'defuz' == order:
+            uzen = InlineKeyboardButton(text="🛡🔁🇺🇿", callback_data='defuz')
+        elif 'uzen' == order:
+            uzen = InlineKeyboardButton(text="🇺🇿🔁🇬🇧", callback_data='uzen')
+        else:
+            uzen = InlineKeyboardButton(text="🇬🇧🔁🇺🇿", callback_data='enuz')
+
+        if random:
+            random = InlineKeyboardButton(text="✅ Aralashtirish", callback_data='random_off')
+        else:
+            random = InlineKeyboardButton(text="🎲 Aralashtirish", callback_data='random_on')
+
+        return InlineKeyboardMarkup(inline_keyboard=[
+                    [uzen, random],
+                    [InlineKeyboardButton(text="⬅️ Orqaga", callback_data='back'), InlineKeyboardButton(text= '🚀 Flashcardni boshlash', callback_data='start')],
+                    [InlineKeyboardButton(text= '❌ Bekor qilish', callback_data='cancle')]])
 
     def start_test_buttons(uzen : bool = True, random : bool = False, time : int = 10, order : str = 'uzeng'):
         if 'defeng' == order:
