@@ -2,8 +2,9 @@ from loader import db, dp, bot
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 from utilites.states.useres import UserState
-from utilites.buttons import DefoltButton
-import re
+from utilites.buttons import DefoltButton, InlineButtons
+from utilites import shoud_edit
+import re, asyncio
 
 
 books = ["📗", "📕", "📘", "📙", "📔", "📓"]
@@ -63,6 +64,19 @@ async def book_menu_handler(update : types.Message, state : FSMContext):
             await bot.copy_message(chat_id=update.from_user.id,
                                    message_id=message_id,
                                    from_chat_id=db.DATA_CHANEL)
+    
+    elif re.search('Test', update.text):
+        state_data = await state.get_data()
+        book_num = state_data.get('book', 1)
+        await state.set_state(UserState.test.get_units)
+
+        await state.update_data(selected = [], random = False, order = 'enuz', time = 30, semaphore = asyncio.Semaphore(1))
+
+        await update.answer("📝", reply_markup=types.ReplyKeyboardRemove())
+        await update.answer(f"📖 Book {book_num} Test \nUnitlarni tanlang, maksimal 5ta unit 👇",
+                                          reply_markup=InlineButtons.unit_buttons(state_data.get('selected', []), book = book_num))
+
+        
 
     else:
         state_data = await state.get_data()

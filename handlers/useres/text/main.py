@@ -27,7 +27,7 @@ async def main_text_handler(update : types.Message, state : FSMContext):
         
         await state.update_data(selected = [], random = False, order = 'enuz', time = 30, semaphore = asyncio.Semaphore(1))
 
-
+    
     else:
         # await bot.send_poll(
         # chat_id=update.from_user.id,
